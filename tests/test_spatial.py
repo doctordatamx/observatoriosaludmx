@@ -15,6 +15,8 @@ class SpatialTests(unittest.TestCase):
   for r in meta['records']:
    p=ROOT/'frontend/public/geo'/('states.json.gz' if r['key']=='states' else f"municipalities-{r['key']}.json.gz")
    c=gz(p);self.assertEqual(len(c['features']),r['features'])
+   if r['key']=='states':
+    self.assertCountEqual([f['properties']['cvegeo'] for f in c['features']],[f'{i:02}' for i in range(1,33)])
    for f in c['features']:
     code=f['properties']['cvegeo'];g=shape(f['geometry']);self.assertTrue(g.is_valid and not g.is_empty)
     xmin,ymin,xmax,ymax=g.bounds;self.assertTrue(-120<xmin<xmax<-85 and 13<ymin<ymax<34)

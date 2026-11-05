@@ -1,6 +1,18 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {yearOverYear} from '../src/profileData.ts';
+import {aggregate,readCube} from '../src/aggregate.ts';
+
+test('schema mismatch fails instead of displaying an empty or simulated query',()=>{
+ const payload={schema_version:1,states:['19'],causes:['E11'],rows:[[0,2,14,1,0,12]]};
+ assert.throws(()=>readCube(payload,true),/esquema incompatible/);
+ assert.throws(()=>readCube({rows:[]},false),/esquema incompatible/);
+ const result=aggregate(readCube(payload,false),{state:'19',sex:'2',age:'14',cause:'E11',municipality:''});
+ assert.equal(result.total,12);
+ assert.equal(result.causes.E11/result.total,1);
+ assert.equal(result.women[14],12);
+ assert.equal(result.temporal[1],12);
+});
 
 test('interannual change uses the previous full year as denominator',()=>{
  const prior={year:2024,partial:false,count:40};

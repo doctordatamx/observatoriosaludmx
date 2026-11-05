@@ -1,0 +1,7 @@
+# Auditoría de datos ficticios
+
+La anomalía se reprodujo al leer el cubo histórico `549e7d2:data/defunciones-2024.json.gz`. La suma de sus filas por código arroja 31,329 para 06, 29,945 para 05 y 28,561 para 04. La misma publicación incluía seis polígonos rectangulares. Su origen fue `pages/build_demo.py` en el commit `9667c4b`, que generaba el catálogo, los cubos, la cartografía y los resultados ilustrativos del laboratorio. Vite los empaquetaba en el sitio público. Eran la fuente primaria de aquella edición para cualquier dispositivo.
+
+El commit `9959804` de `gh-pages` retiró esos archivos y la rama de código eliminó el generador. El 5 de noviembre de 2026, tres solicitudes HTTP con identificadores de Chrome de escritorio, Chrome Android y Firefox devolvieron el mismo JavaScript y HTTP 404 para `data/index.json`. El HTML anunció `Cache-Control: max-age=600`. El código auditado carece de service worker y de persistencia de filtros en almacenamiento local. Los filtros se reconstruyen desde la URL. La evidencia explica las cifras observadas y el origen del mapa. Se desconoce qué versión tenía cargada el teléfono del usuario y si la conservó en caché o en una pestaña abierta.
+
+La compilación pública bloquea el catálogo epidemiológico. El Atlas público usa únicamente cartografía estatal de referencia validada y el empaquetado falla si encuentra recursos ajenos a la lista permitida, un hash cartográfico divergente o los marcadores sintéticos históricos en JavaScript. Los commits históricos de Git conservan evidencia del incidente.

@@ -19,6 +19,10 @@ test('public module links resolve to an availability notice or methodology', asy
    assert.match(html,/Edición pública/);
    assert.doesNotMatch(html,/Datos reales, lectura provisional|Datos simulados/);
    assert.match(html,view==='metodologia'?/Qué se puede interpretar en esta versión/:/Datos no disponibles en la edición pública/);
+   if(view==='atlas'){
+    assert.match(html,/Mapa de referencia de las entidades federativas de México/);
+    assert.doesNotMatch(html,/Mapa de frecuencias|Sin registros en esta consulta/);
+   }
   }
  } finally {
   delete globalThis.location;
