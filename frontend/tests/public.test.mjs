@@ -26,7 +26,8 @@ test('public views show official totals and keep unavailable modules explicit', 
    globalThis.location=new URL('https://example.org/observatoriosaludmx/?view='+view);
    const html=renderToStaticMarkup(createElement(App));
    assert.match(html,/Edición pública/);
-   assert.match(html,/Abrir carpeta de datos/);
+   if(view==='fuentes')assert.match(html,/Abrir carpeta de datos/);
+   else assert.doesNotMatch(html,/Abrir carpeta de datos/);
    assert.doesNotMatch(html,/Datos reales, lectura provisional|Datos simulados/);
    const expected={
     panorama:/819,672/,
