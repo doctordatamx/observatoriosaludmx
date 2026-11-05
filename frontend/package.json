@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:pages": "tsc --noEmit && vite build --mode pages && python ../pages/build_demo.py"
   },
   "dependencies": {
     "react": "^19.0.0",

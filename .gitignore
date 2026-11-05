@@ -4,6 +4,7 @@ data/gold/**
 !**/.gitkeep
 node_modules/
 dist/
+dist-pages/
 .venv/
 __pycache__/
 renv/library/

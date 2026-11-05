@@ -6,7 +6,7 @@ Versión local 0.5 — 4 de noviembre de 2026. React + TypeScript + Vite, ingeni
 Desde `frontend`: `npm ci` y `npm run dev -- --port 5173`.
 Abrir http://127.0.0.1:5173/ . El servidor escucha solo en loopback. Los módulos analíticos requieren reconstruir los datos locales.
 
-La [portada en GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) se genera desde `pages/`. Para actualizarla, ejecutar `git subtree split --prefix=pages` y enviar el hash resultante a `gh-pages` con `git push origin <hash>:refs/heads/gh-pages`. Pages sirve la raíz de esa rama.
+La [demostración en GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) usa cifras simuladas, territorios ficticios y resultados ilustrativos del laboratorio. Desde `frontend`, ejecutar `npm ci` y `npm run build:pages` (requiere Python 3). Vite desactiva la copia de `public/` en este modo y el generador añade los recursos sintéticos y los documentos. Para desplegar, sustituir el contenido de la rama `gh-pages` con el de `frontend/dist-pages/`, incluyendo `.nojekyll`. Pages sirve la raíz de esa rama.
 
 ## Qué funciona
 - 31 conjuntos anuales reales desde 2020, sin unir fuentes ni deduplicar personas entre ellas.
