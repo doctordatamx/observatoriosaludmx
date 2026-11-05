@@ -1,0 +1,398 @@
+[
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2010_2013.csv?v=1.1",
+    "label": "Descripción de las Variables de Egresos Hospitalarios 2010-2013 (6.79 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2010_2013.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2010-2013 (3.4 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2010.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2010 (94.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2011.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2011 (93.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2012.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2012 (103 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2013.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2013 (95.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2014.xlsx?v=1.1",
+    "label": "Descripción de las Variables de Egresos Hospitalarios 2014-2015 (130 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2014.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2014-2015 (3.18 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2014.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2014 (87.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2015.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2015 (106 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2016.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2016 (135 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2016.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2016 (3.56 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2016.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2016 (108 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2017.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2017 (138 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2017.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2017 (3.56 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2017.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2017 (100 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2018.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2018 (96 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2018.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2018 (3.22 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2018.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2018 (98.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2019.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2019 (94.1 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2019.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2019 (3.41 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2019.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios 2019 (81.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2020.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2020 (94.1 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2020.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2020 (3.69 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2020.zip?v=2022.03.17",
+    "label": "Registros de Egresos Hospitalarios 2020 (69.1 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2021.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2021 (100 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2021.zip?v=1.1",
+    "label": "Catálogos de Egresos Hospitalarios 2021 (3.54 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2021.zip?v=2022.06.15",
+    "label": "Registros de Egresos Hospitalarios 2021 (75.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2022.xlsx?v=2022.05.22",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2022 (84.0 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2022.zip?v=2022.05.22",
+    "label": "Catálogos de Egresos Hospitalarios 2022 (3.70 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2022.zip?v=2023.05.22",
+    "label": "Registros de Egresos Hospitalarios 2022 (98.0 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Descriptores_Bases_de_Datos_EGRESOS_2023_2025.xlsx?v=2026.06.05",
+    "label": "Descriptor Base de Datos de Egresos Hospitalarios 2023 - 2025 (87.1 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_Catalogos_Egresos_2023_2025.zip?v=2026.06.05",
+    "label": "Catálogos de Egresos Hospitalarios 2023 - 2025 (4.53 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2023.zip?v=2024.05.31",
+    "label": "Registros de Egresos Hospitalarios 2023 (106 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2024.zip?v=2025.05.22",
+    "label": "Registros de Egresos Hospitalarios 2024 (105 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2025.zip?v=2026.06.05",
+    "label": "Registros de Egresos Hospitalarios 2025 (106 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/ssa_egresos_2026.zip?v=2026.10.27",
+    "label": "Registros de Egresos Hospitalarios 2026 (76.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Descriptores_Base_de_Datos_EGRESOS_2004_2014.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos SECTOR 2004-2014 (54.9 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Catalogos_egresos_2004_2014.zip?v=1.1",
+    "label": "Catálogos Egresos Sectorial 2004 - 2014 (965 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2004.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2004 (13.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2005.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2005 (17.0 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2006.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2006 (17.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2007.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2007 (17.1 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2008.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2008 (20.2 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2009.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2009 (25.0 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2010.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2010 (20.3 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2011.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2011 (21.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2012.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2012 (24.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2013.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2013 (27.2 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2014.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2014 (27.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Descriptores_Base_de_Datos_EGRESOS_2015_2016.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos SECTOR 2015-2016 (53 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Catalogos_egresos_2015_2016.zip",
+    "label": "Catálogos de Egresos Hospitalarios Sectorial 2015-2016 (12.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2015.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2015 (30.6 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2016.zip?v=1.1",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2016 (29.1 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Descriptores_Base_de_Datos_EGRESOS_2017.xlsx?v=1.1",
+    "label": "Descriptor Base de Datos SECTOR 2017 (60 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Catalogos_egresos_2017.zip?v=1.1",
+    "label": "Catálogos Egresos Hospitalarios Sectorial 2017 (12.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2017.zip",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2017 (56.4 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Descriptores_Base_de_Datos_EGRESOS_2018_2024.xlsx?v=2025.09.05",
+    "label": "Descriptor Base de Datos SECTOR 2018 - 2024 (91.3 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_Catalogos_egresos_2018_2024.zip?v=2025.09.05",
+    "label": "Catálogos Egresos Hospitalarios Sectorial 2018 - 2024 (1.64 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2018.zip",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2018 (73.3 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2019.zip",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2019 (72.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2020.zip?v=2022.03.17",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2020 (48.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2021.zip?v=2022.11.24",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2021 (55.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2022.zip?v=2025.09.05",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2022 (71.4 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2023.zip?v=2025.09.05",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2023 (81.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/egresos/sectorial_egresos_2024.zip?v=2025.09.05",
+    "label": "Registros de Egresos Hospitalarios Sectorial 2024 (78.4 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "egresos"
+  }
+]

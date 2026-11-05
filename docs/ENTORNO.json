@@ -1,0 +1,18 @@
+{
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "pyarrow": "23.0.1",
+    "polars": "1.44.2",
+    "duckdb": "1.5.5",
+    "pydantic": "2.12.5"
+  },
+  "r": "4.6.1",
+  "r_lockfile": "renv.lock",
+  "javascript_lockfile": "frontend/package-lock.json",
+  "spatial": {
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0",
+    "source_crs": "EPSG:6365",
+    "web_crs": "EPSG:4326"
+  }
+}

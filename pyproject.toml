@@ -1,0 +1,11 @@
+[project]
+name = "observatorio-epidemiologico-mx"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+data = ["polars", "duckdb", "pyarrow", "pydantic"]
+ml = ["scikit-learn", "statsmodels", "libpysal", "esda", "hdbscan", "umap-learn"]
+test = ["pytest"]
+spatial = ["shapely==2.2.0", "pyproj==3.8.0"]

@@ -1,0 +1,290 @@
+[
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_1998-1999.zip?v=1.1.1",
+    "label": "Catálogos de Defunciones 1998-1999 (153 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2000-2001.zip?v=1.1.1",
+    "label": "Catálogos de Defunciones 2000-2001(153 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2002-2003.zip?v=1.1.1",
+    "label": "Catálogos de Defunciones 2002-2003(153 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2004-2011.zip?v=1.1.1",
+    "label": "Catálogos de Defunciones 2004-2011(154 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2012-2013.zip?v=1.1.1",
+    "label": "Catálogos de Defunciones 2012-2013(155 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2014.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2014(358 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2015.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2015(363 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2016.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2016(363 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2017.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2017(358 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2018.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2018(379 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2019.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2019(366 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2020.zip?v=1.1.1",
+    "label": "Catálogo de Defunciones 2020(317 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2021.zip?v=2022.12.09",
+    "label": "Catálogo de Defunciones 2021(435 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2022.zip?v=2023.11.10",
+    "label": "Catálogo de Defunciones 2022(457 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2023.zip?v=2024.11.21",
+    "label": "Catálogo de Defunciones 2023(474 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/catalogos/CATALOGOS_DEFUN_2024.zip?v=2025.12.22",
+    "label": "Catálogo de Defunciones 2024 (491 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_1998-1999.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 1998-1999 (1.19 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2000-2001.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2000-2001 (1.21 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2002-2003.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2002-2003 (1.25 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2004-2011.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2004-2011 (1.28 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2012-2013.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2012-2013 (1.38 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2014.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2014 (1.79 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2015.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2015 (1.81 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2016.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2016 (1.81 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2017.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2017 (1.62 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2018.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2018 (1.31 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2019.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2019 (72 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2020.zip?v=1.1.1",
+    "label": "Descriptor Campos de Defunciones 2020 (73 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2021.zip?v=2022.12.09",
+    "label": "Descriptor Campos de Defunciones 2021 (2.25 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2022.zip?v=2023.11.10",
+    "label": "Descriptor Campos de Defunciones 2022 (12.7 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2023.zip?v=2024.11.21.1",
+    "label": "Descriptor Campos de Defunciones 2023 (2.71 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/descriptores/DESCRIPTOR_CAMPOS_DEFUN_2024.zip?v=2025.12.22",
+    "label": "Descriptor Campos de Defunciones 2024 (2.58 Kb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_1998-1999.zip?v=1.1.1",
+    "label": "Registro de Defunciones 1998-1999 (23.7 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2000-2001.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2000-2001 (22.6 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2002-2003.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2002-2003 (25.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2004-2011.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2004-2011 (25.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2012-2013.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2012-2013 (38.0 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2014.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2014 (17.9 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2015.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2015 (19.6 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2016.zip?v=1.1.1 ",
+    "label": "Registro de Defunciones 2016 (18.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2017.zip?v=1.1.1",
+    "label": "Registro de Defunciones 2017 (22.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2018.zip?v=1.1.1 ",
+    "label": "Registro de Defunciones 2018 (24.4 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2019.zip?v=1.1.1 ",
+    "label": "Registro de Defunciones 2019 (26 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2020.zip?v=20221007 ",
+    "label": "Registro de Defunciones 2020 (36.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2021.zip?v=2022.12.09 ",
+    "label": "Registro de Defunciones 2021 (36.1 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2022.zip?v=2023.11.10 ",
+    "label": "Registro de Defunciones 2022 (36.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2023.zip?v=2024.11.21 ",
+    "label": "Registro de Defunciones 2023 (28.8 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  },
+  {
+    "url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2024.zip?v=2025.12.22 ",
+    "label": "Registro de Defunciones 2024 (29.5 Mb)",
+    "status": "listed_not_downloaded",
+    "source": "defunciones"
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "egresos",
+    "landing_url": "http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_egresoshosp_gobmx.html",
+    "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
+    "consulted_date": "2026-11-04",
+    "file_url": null,
+    "record_count": null,
+    "size_bytes": null,
+    "download_format": "ZIP listed; contents not yet inspected",
+    "license": null,
+    "confirmed_dictionary": null,
+    "dictionary_candidate_url": "http://sinba08.salud.gob.mx/cubos/Metadatos/Dat-ehosp-Descripcion_de_variables.html",
+    "catalogues": null,
+    "comparability": "pending",
+    "resource_inventory": "config/egresos_files.json",
+    "manifest": "data/bronze/manifest.json",
+    "processed_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "yearly_counts": {
+      "2020": 1937344,
+      "2021": 2088779,
+      "2022": 2479897,
+      "2023": 2591278,
+      "2024": 2649236,
+      "2025": 2596893,
+      "2026": 1948203
+    },
+    "sectorial_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  {
+    "id": "urgencias",
+    "landing_url": "http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_urgencias_gobmx.html",
+    "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
+    "consulted_date": "2026-11-04",
+    "file_url": null,
+    "record_count": null,
+    "size_bytes": null,
+    "download_format": "ZIP listed; contents not yet inspected",
+    "license": null,
+    "confirmed_dictionary": null,
+    "dictionary_candidate_url": null,
+    "catalogues": null,
+    "comparability": "pending",
+    "resource_inventory": "config/urgencias_files.json",
+    "manifest": "data/bronze/manifest.json",
+    "processed_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "yearly_counts": {
+      "2020": 5284803,
+      "2021": 5383305,
+      "2022": 7074271,
+      "2023": 7806625,
+      "2024": 7989731,
+      "2025": 7651752,
+      "2026": 5891719
+    }
+  },
+  {
+    "id": "defunciones",
+    "landing_url": "http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_defunciones_gobmx.html",
+    "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
+    "consulted_date": "2026-11-04",
+    "file_url": "http://www.dgis.salud.gob.mx/descargas/datosabiertos/defunciones/registro/DEFUN_2024.zip?v=2025.12.22",
+    "record_count": 819672,
+    "size_bytes": 30983992,
+    "download_format": "ZIP containing CSV",
+    "license": null,
+    "confirmed_dictionary": "DESCRIPTOR_CAMPOS_DEFUN_2024.zip",
+    "dictionary_candidate_url": "http://sinba08.salud.gob.mx/cubos/Metadatos/Dat-Mort-Descripcion_de_variables.html",
+    "catalogues": "CATALOGOS_DEFUN_2024.zip",
+    "comparability": "pending",
+    "audit_report": "reports/DEFUNCIONES_2024_AUDIT.json",
+    "processed_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "yearly_counts": {
+      "2020": 1086743,
+      "2021": 1122249,
+      "2022": 847716,
+      "2023": 799869,
+      "2024": 819672
+    }
+  },
+  {
+    "id": "lesiones",
+    "landing_url": "https://sinba.salud.gob.mx/cuboLESIONES/lesiones2024/",
+    "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
+    "consulted_date": "2026-11-04",
+    "file_url": null,
+    "record_count": null,
+    "size_bytes": null,
+    "download_format": null,
+    "license": null,
+    "confirmed_dictionary": null,
+    "dictionary_candidate_url": null,
+    "catalogues": null,
+    "comparability": "pending",
+    "manifest": "data/bronze/manifest.json",
+    "processed_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "yearly_counts": {
+      "2020": 496335,
+      "2021": 622798,
+      "2022": 749528,
+      "2023": 934009,
+      "2024": 1074543,
+      "2025": 1197588,
+      "2026": 964803
+    }
+  }
+]
