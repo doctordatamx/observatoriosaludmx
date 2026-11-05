@@ -6,7 +6,7 @@ Versión local 0.5 — 4 de noviembre de 2026. React + TypeScript + Vite, ingeni
 Desde `frontend`: `npm ci` y `npm run dev -- --port 5173`.
 Abrir http://127.0.0.1:5173/ . El servidor escucha solo en loopback. Los módulos analíticos requieren reconstruir los datos locales.
 
-La [demostración en GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) usa cifras simuladas, territorios ficticios y resultados ilustrativos del laboratorio. Desde `frontend`, ejecutar `npm ci` y `npm run build:pages` (requiere Python 3). Vite desactiva la copia de `public/` en este modo y el generador añade los recursos sintéticos y los documentos. Para desplegar, sustituir el contenido de la rama `gh-pages` con el de `frontend/dist-pages/`, incluyendo `.nojekyll`. Pages sirve la raíz de esa rama.
+La edición de [GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) muestra el estado de disponibilidad y la metodología. Desde `frontend`, ejecutar `npm ci` y `npm run build:pages` (requiere Python 3). Vite desactiva la copia de `public/` y el empaquetado añade documentación. Desde la raíz, `python pages/check_public.py` valida rutas y contenido. Tras las pruebas, desplegar el contenido de `frontend/dist-pages/` en la raíz de `gh-pages`, incluyendo `.nojekyll`.
 
 ## Qué funciona
 - 31 conjuntos anuales reales desde 2020, sin unir fuentes ni deduplicar personas entre ellas.
@@ -29,6 +29,7 @@ Python: instalar `python -m pip install -e ".[data,test]"` cuando falten depende
 ## Verificar
 `python -m unittest discover -s tests -v` comprueba conservación de todos los cubos y compara una consulta filtrada contra SQL independiente en DuckDB.
 `Rscript tests/test_age.R` comprueba límites etarios, unidades y desconocidos.
+`node --test frontend/tests/*.test.mjs` comprueba perfiles, comparaciones y variación interanual con Node 24. `python python/validation/audit_pipeline.py` verifica la cadena Bronze–Silver–Gold y genera un reporte local.
 `cd frontend` y `npm run build` comprueba TypeScript y genera dist.
 
 ## Alcance científico
@@ -38,6 +39,8 @@ Los datos detallados de Gold contienen celdas pequeñas para investigación loca
 ## Documentación
 METODOLOGIA.md, ARQUITECTURA.md, AUDITORIA_FUENTES.md, docs/IMPLEMENTACION.md, docs/INDICADORES.md, reports/CALIDAD.md, reports/GOLD_QUALITY.json.
 LICENSE aplica al código y documentos propios; las fuentes mantienen sus condiciones de origen.
+
+[Auditoría técnica](docs/AUDITORIA_TECNICA.md) · [Fuentes oficiales](docs/FUENTES_OFICIALES.md) · [Calidad](docs/CALIDAD_DATOS.md) · [Cambios](docs/CHANGELOG.md).
 
 
 ## Cobertura ampliada desde 2020

@@ -21,3 +21,7 @@ Toda ficha futura incluirá versión de fuente, filtros, numerador, denominador,
 ## Frecuencias de microdatos implementadas en la versión 0.1
 Numerador: filas de la tabla principal que cumplen filtros; agrupación por categoría CIE-10 a tres caracteres. Denominador: ninguno para frecuencias; para proporción de causa, total de registros filtrados de la misma fuente/periodo. No son tasas poblacionales ni personas únicas.
 Fuentes: paquetes DGIS 2024–2026 disponibles, con hash y URL en la vista de trazabilidad. Cobertura institucional variable y pendiente de conciliación externa. Tiempo y territorio por fuente se documentan en docs/IMPLEMENTACION.md. Exclusiones: no se eliminan registros por dimensiones inválidas; se conservan categorías desconocidas. Incertidumbre: no estimada ni representada como IC. La proporción se interpreta únicamente dentro de la consulta, no como prevalencia.
+
+## Variación interanual de conteos
+
+El perfil por categoría CIE-10 calcula `100 × (conteo actual − conteo previo) / conteo previo` con la misma fuente y los mismos filtros. Requiere dos años completos consecutivos, conteos disponibles y un conteo previo positivo. La tabla indica «No disponible» si falta una condición y el CSV deja vacío el valor. Un cambio puede reflejar cobertura, acceso o codificación.

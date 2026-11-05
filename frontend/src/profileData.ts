@@ -20,3 +20,10 @@ export function countProfile(cube:ProfileCube, scope:ProfileScope) {
 export function profileFile(national:string, municipal:string|undefined, scope:ProfileScope){
  return scope.municipality?municipal: national;
 }
+
+type AnnualCount = {year:number; partial:boolean; count:number|null};
+export function yearOverYear(current:AnnualCount, previous?:AnnualCount) {
+ if (!previous || previous.year !== current.year - 1 || previous.partial || current.partial
+   || previous.count === null || previous.count <= 0 || current.count === null) return null;
+ return 100 * (current.count - previous.count) / previous.count;
+}

@@ -1,6 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
 import {ArrowDownToLine, ArrowUpRight, HeartPulse} from 'lucide-react';
-import {countProfile,profileFile,type ProfileCube,type ProfileScope} from './profileData';
+import {countProfile,profileFile,yearOverYear,type ProfileCube,type ProfileScope} from './profileData';
 type Year = {id:string;year:number;file:string;partial:boolean;cutoffs:string|string[]};
 type Partitions = {datasets:Record<string,{states:Record<string,{file:string}>}>};
 type Point = {year:number;partial:boolean;cutoff:string;count:number|null;status:string};
@@ -29,7 +29,7 @@ export default function DiseaseProfile(p:Props){
   setBusy(true);setTrend(null);
   async function run(){
    const rows:Point[]=[];
-   for(const d of years){
+   for(const d of [...years].sort((a,b)=>a.year-b.year)){
     if(controller.signal.aborted)return;
     const eligible=!scope.municipality||p.eligibilityByYear?.[d.id]?.includes(scope.municipality);
     const file=eligible?profileFile(d.file,partitions?.datasets[d.id]?.states[scope.state]?.file,scope):undefined;
@@ -59,7 +59,7 @@ export default function DiseaseProfile(p:Props){
  },[peer,peerLabel,scope,selected,partitions,p.cube,load]);
  function exportTrend(){
   if(!trend)return;
-  const data=[['anio','registros','periodo_parcial','corte','estado_del_dato','cie10','fuente','geografia','entidad','municipio','sexo','grupo_edad_indice'],...trend.map(r=>[r.year,r.count??'',r.partial?'sí':'no',r.cutoff,r.status,scope.cause,p.source,p.geography,scope.state,scope.municipality,scope.sex,scope.age])];
+  const data=[['anio','registros','variacion_interanual_pct','periodo_parcial','corte','estado_del_dato','cie10','fuente','geografia','entidad','municipio','sexo','grupo_edad_indice'],...trend.map((r,i)=>[r.year,r.count??'',yearOverYear(r,trend[i-1])??'',r.partial?'sí':'no',r.cutoff,r.status,scope.cause,p.source,p.geography,scope.state,scope.municipality,scope.sex,scope.age])];
   const url=URL.createObjectURL(new Blob(['\uFEFF'+data.map(row=>row.map(v=>'"'+String(v).replaceAll('"','""')+'"').join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='perfil-'+scope.cause+'-serie-anual.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
  }
@@ -72,9 +72,9 @@ export default function DiseaseProfile(p:Props){
  {current&&<p><b>{fmt(current.count)}</b> de {fmt(current.denominator)} registros del mismo universo filtrado{current.denominator?' ('+(100*current.count/current.denominator).toLocaleString('es-MX',{maximumFractionDigits:2})+' %)':''}. Proporción de registros, no prevalencia.</p>}
  </section>
  <section className="panel disease-section"><div className="disease-section-head"><div><span className="eyebrow">MISMA FUENTE Y MISMOS FILTROS</span><h3>Evolución anual</h3></div><div className="export-buttons">{trend&&<button className="outline" onClick={exportTrend}><ArrowDownToLine size={15}/> CSV anual</button>}<button className="outline" disabled={busy} onClick={()=>setTrendKey(x=>x+1)}>{busy?'Cargando…':trend?'Actualizar serie':'Cargar serie anual'}</button></div></div>
- <p>Se consultan los archivos anuales de esta fuente. Los cortes parciales se muestran por separado y los faltantes no se tratan como cero. La cobertura puede cambiar entre años.</p>
+ <p>Se consultan los archivos anuales de esta fuente. Los cortes parciales se muestran por separado y los faltantes no se tratan como cero. La variación compara años completos consecutivos con referencia mayor que cero. La cobertura puede cambiar entre años.</p>
  {busy&&<p role="status">Leyendo un agregado por vez…</p>}
- {trend&&<div className="table-scroll"><table><thead><tr><th>Año</th><th>Registros</th><th>Disponibilidad</th></tr></thead><tbody>{trend.map(r=><tr key={r.year}><td>{r.year}{r.partial?' · parcial':''}</td><td>{r.count===null?'—':<div className="profile-bar"><span style={{width:(100*r.count/max)+'%'}} className={r.partial?'partial':''}/><b>{fmt(r.count)}</b></div>}</td><td>{r.status}{r.partial&&r.cutoff?' · corte '+r.cutoff:''}</td></tr>)}</tbody></table></div>}
+ {trend&&<div className="table-scroll"><table><thead><tr><th>Año</th><th>Registros</th><th>Variación interanual</th><th>Disponibilidad</th></tr></thead><tbody>{trend.map((r,i)=><tr key={r.year}><td>{r.year}{r.partial?' · parcial':''}</td><td>{r.count===null?'—':<div className="profile-bar"><span style={{width:(100*r.count/max)+'%'}} className={r.partial?'partial':''}/><b>{fmt(r.count)}</b></div>}</td><td>{(yearOverYear(r,trend[i-1])?.toLocaleString('es-MX',{maximumFractionDigits:1}) ?? 'No disponible')}{yearOverYear(r,trend[i-1])!==null?' %':''}</td><td>{r.status}{r.partial&&r.cutoff?' · corte '+r.cutoff:''}</td></tr>)}</tbody></table></div>}
  </section>
  <section className="panel disease-section"><div className="disease-section-head"><div><span className="eyebrow">{selected.year} · {p.geography.toUpperCase()}</span><h3>Comparación territorial</h3></div></div>
  <p>Compara conteos con el mismo año, fuente, causa, edad y sexo. Los tamaños de población y la cobertura pueden diferir; no es una comparación de riesgo.</p>
