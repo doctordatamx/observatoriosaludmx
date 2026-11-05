@@ -48,4 +48,4 @@ if (len(features) != 32 or set(metadata["states"]) != states
            or item["geometry"]["type"] not in {"Polygon", "MultiPolygon"}
            or not item["geometry"]["coordinates"] for item in features)):
     raise SystemExit("La cartografía estatal no corresponde a las 32 claves y nombres oficiales.")
-print("Recursos relativos y cartografía estatal verificados. Artefacto sin cifras epidemiológicas.")
+print("Recursos relativos y cartografía estatal verificados. Sin cubos ni archivos epidemiológicos locales.")

@@ -6,7 +6,7 @@ Versión local 0.5 — 4 de noviembre de 2026. React + TypeScript + Vite, ingeni
 Desde `frontend`: `npm ci` y `npm run dev -- --port 5173`.
 Abrir http://127.0.0.1:5173/ . El servidor escucha solo en loopback. Los módulos analíticos requieren reconstruir los datos locales.
 
-La edición de [GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) muestra el estado de disponibilidad, la metodología y un mapa estatal de referencia del INEGI sin cifras epidemiológicas. Desde `frontend`, ejecutar `npm ci` y `npm run build:pages` (requiere Python 3). Vite desactiva la copia de `public/` y el empaquetado añade documentación y cartografía de referencia. Desde la raíz, `python pages/check_public.py` valida rutas y contenido. Tras las pruebas, desplegar el contenido de `frontend/dist-pages/` en la raíz de `gh-pages`, incluyendo `.nojekyll`.
+La edición de [GitHub Pages](https://doctordatamx.github.io/observatoriosaludmx/) muestra defunciones nacionales de 2020 a 2024 y defunciones por entidad de residencia y principales causas en 2024, con cifras de los tabulados del INEGI. Desde `frontend`, ejecutar `npm ci` y `npm run build:pages` (requiere Python 3). Vite desactiva la copia de `public/` y el empaquetado añade documentación y cartografía de referencia. Desde la raíz, `python pages/check_public.py` valida rutas y contenido. Tras las pruebas, desplegar el contenido de `frontend/dist-pages/` en la raíz de `gh-pages`, incluyendo `.nojekyll`.
 
 ## Qué funciona
 - 31 conjuntos anuales reales desde 2020, sin unir fuentes ni deduplicar personas entre ellas.
