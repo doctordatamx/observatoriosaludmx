@@ -1,4 +1,5 @@
-import React,{useEffect,useMemo,useRef,useState} from 'react';
+import {ObservatoryAssets,type AssetReader} from './observatoryAssets';
+import React,{useContext,useEffect,useMemo,useRef,useState} from 'react';
 import * as echarts from 'echarts/core';
 import {MapChart} from 'echarts/charts';
 import {TooltipComponent,VisualMapComponent} from 'echarts/components';
@@ -8,13 +9,14 @@ echarts.use([MapChart,TooltipComponent,VisualMapComponent,SVGRenderer]);
 export type GeoIndex={snapshot:string;vintage:string;names:Record<string,string>;states:Record<string,string>;available_states:string[];historical_warning:string;source:string};
 type Feature={properties:{name:string;cvegeo:string;nomgeo:string};geometry:unknown;type:'Feature'};
 type Geography={type:'FeatureCollection';features:Feature[]};
-const geometries=new Map<string,Geography>();
-async function readGeometry(file:string,signal:AbortSignal){if(geometries.has(file))return geometries.get(file)!;const r=await fetch(`${import.meta.env.BASE_URL}geo/${file}`,{signal});if(!r.ok)throw Error(`Geometría no disponible (${r.status})`);const geo=(r.headers.get('content-encoding')?.includes('gzip')?await r.json():await new Response(r.body!.pipeThrough(new DecompressionStream('gzip'))).json()) as Geography;geometries.set(file,geo);return geo;}
+const geometryCaches=new WeakMap<AssetReader,Map<string,Geography>>();
+async function readGeometry(read:AssetReader,file:string,signal:AbortSignal){const geometries=geometryCaches.get(read)??new Map<string,Geography>();geometryCaches.set(read,geometries);if(geometries.has(file))return geometries.get(file)!;const r=await read('geo/'+file,{signal});if(!r.ok)throw Error(`Geometría no disponible (${r.status})`);const geo=(r.headers.get('content-encoding')?.includes('gzip')?await r.json():await new Response(r.body!.pipeThrough(new DecompressionStream('gzip'))).json()) as Geography;geometries.set(file,geo);return geo;}
 export default function Atlas({geo,state,municipality,counts,onState,onMunicipality,geography,municipalAvailable,eligibleMunicipalities,year,municipalSupported,publishedCounts=false}:{publishedCounts?:boolean;geo:GeoIndex|null;state:string;municipality:string;counts:Record<string,number>;onState:(s:string)=>void;onMunicipality:(s:string)=>void;geography:string;municipalAvailable:boolean;eligibleMunicipalities?:string[];year:number;municipalSupported:boolean}){
+ const read=useContext(ObservatoryAssets);
  const el=useRef<HTMLDivElement>(null),chart=useRef<echarts.EChartsType|null>(null);const [shape,setShape]=useState<Geography|null>(null),[error,setError]=useState('');const [retry,setRetry]=useState(0);
  const municipal=!!state&&municipalAvailable&&!!geo?.available_states.includes(state);
  const geometryFile=municipal?`municipalities-${state}.json.gz`:'states.json.gz';
- useEffect(()=>{setShape(null);setError('');const c=new AbortController();readGeometry(geometryFile,c.signal).then(setShape).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>c.abort();},[geometryFile,retry]);
+ useEffect(()=>{setShape(null);setError('');const c=new AbortController();readGeometry(read,geometryFile,c.signal).then(setShape).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>c.abort();},[geometryFile,retry,read]);
  useEffect(()=>{if(!el.current)return;chart.current=echarts.init(el.current,undefined,{renderer:'svg'});const o=new ResizeObserver(()=>chart.current?.resize());o.observe(el.current);return()=>{o.disconnect();chart.current?.dispose();};},[]);
  const eligible=useMemo(()=>new Set(eligibleMunicipalities||[]),[eligibleMunicipalities]);
  const validCodes=useMemo(()=>new Set(shape?.features.map(f=>f.properties.cvegeo)||[]),[shape]);

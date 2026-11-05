@@ -6,6 +6,15 @@ import {test} from 'node:test';
 import {createElement} from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {build} from 'vite';
+import {folderAssets} from '../src/observatoryAssets.ts';
+
+test('the connected folder only reads its own data and geography', async ()=>{
+ const file=(path,content)=>Object.assign(new File([content],path.split('/').at(-1)),{webkitRelativePath:'public/'+path});
+ const read=folderAssets([file('data/index.json','{"datasets":[]}'),file('geo/index.json','{}')]);
+ assert.deepEqual(await (await read('data/index.json')).json(),{datasets:[]});
+ assert.equal((await read('data/lab/index.json')).status,404);
+ assert.throws(()=>folderAssets([file('data/index.json','{}')]),/subcarpetas data y geo/);
+});
 
 test('public views show official totals and keep unavailable modules explicit', async () => {
  const root=fileURLToPath(new URL('..',import.meta.url));
@@ -17,6 +26,7 @@ test('public views show official totals and keep unavailable modules explicit', 
    globalThis.location=new URL('https://example.org/observatoriosaludmx/?view='+view);
    const html=renderToStaticMarkup(createElement(App));
    assert.match(html,/Edición pública/);
+   assert.match(html,/Abrir carpeta de datos/);
    assert.doesNotMatch(html,/Datos reales, lectura provisional|Datos simulados/);
    const expected={
     panorama:/819,672/,

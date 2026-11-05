@@ -1,6 +1,7 @@
+import {ObservatoryAssets,type AssetReader} from './observatoryAssets';
 import ClusterScatter, {type Mds} from './ClusterScatter';
 import ClusterTree, {type WardTree} from './ClusterTree';
-import {useEffect,useState} from 'react';
+import {useContext,useEffect,useState} from 'react';
 type Dataset={id:string;source:string;year:number};
 type Index={datasets:Dataset[];vintage:string;minimum_records:number;queen_edges:number;rook_edges:number};
 type Cluster={k:number;silhouette:number;stability:number;groups:Record<string,number>};
@@ -10,25 +11,26 @@ const number=(n:number)=>new Intl.NumberFormat('es-MX').format(n);
 const decimal=(n:number|null)=>n==null?'—':n.toLocaleString('es-MX',{maximumFractionDigits:3});
 const percent=(n:number)=>decimal(n*100)+' %';
 const months=['','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-async function read<T>(file:string,signal:AbortSignal):Promise<T>{
- const r=await fetch(import.meta.env.BASE_URL+'data/lab/'+file,{signal});
+async function readModel<T>(read:AssetReader,file:string,signal:AbortSignal):Promise<T>{
+ const r=await read('data/lab/'+file,{signal});
  if(!r.ok)throw Error('No se pudo cargar el análisis.');
  return r.json();
 }
 export default function Laboratory({sources,causes,states,initial,onSelection}:{sources:Record<string,string>;causes:Record<string,string>;states:Record<string,string>;initial:{source:string;year:number;cause:string};onSelection:(v:Partial<{source:string;year:number;cause:string}>)=>void}){
+ const read=useContext(ObservatoryAssets);
  const [index,setIndex]=useState<Index|null>(null),[model,setModel]=useState<Model|null>(null);
  const {source,year}=initial;const cause=initial.cause||'E11';const [query,setQuery]=useState(''),[k,setK]=useState(3);
  const [error,setError]=useState(''),[retry,setRetry]=useState(0);
- useEffect(()=>{const c=new AbortController();setError('');read<Index>('index.json',c.signal).then(setIndex).catch(()=>{if(!c.signal.aborted)setError('No se pudo cargar el catálogo del Laboratorio.');});return()=>c.abort();},[retry]);
+ useEffect(()=>{const c=new AbortController();setError('');readModel<Index>(read,'index.json',c.signal).then(setIndex).catch(()=>{if(!c.signal.aborted)setError('No se pudo cargar el catálogo del Laboratorio.');});return()=>c.abort();},[retry,read]);
  const years=index?.datasets.filter(d=>d.source===source)||[];
  const selected=years.find(d=>d.year===year)||years.at(-1);
  useEffect(()=>{if(selected&&selected.year!==year)onSelection({year:selected.year});},[selected?.year,year,onSelection]);
  useEffect(()=>{
   if(!selected)return;
   const c=new AbortController();setModel(null);setError('');
-  read<Model>(selected.id+'.json',c.signal).then(m=>{if(!c.signal.aborted)setModel(m);}).catch(()=>{if(!c.signal.aborted)setError('No se pudo cargar el análisis del periodo.');});
+  readModel<Model>(read,selected.id+'.json',c.signal).then(m=>{if(!c.signal.aborted)setModel(m);}).catch(()=>{if(!c.signal.aborted)setError('No se pudo cargar el análisis del periodo.');});
   return()=>c.abort();
- },[selected?.id,retry]);
+ },[selected?.id,retry,read]);
  const data=model?.id===selected?.id?model:null;
  const [selection,setSelection]=useState({id:"",code:""});
  const entity=selection.id===data?.id?selection.code:"";
