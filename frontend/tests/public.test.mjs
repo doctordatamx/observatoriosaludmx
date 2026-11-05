@@ -22,7 +22,7 @@ test('public views show official totals and keep unavailable modules explicit', 
  try {
   await build({root,mode:'pages',logLevel:'silent',build:{ssr:'src/main.tsx',outDir}});
   const {App}=await import(pathToFileURL(join(outDir,'main.js')).href);
-  for(const view of ['panorama','enfermedades','atlas','laboratorio','fuentes','metodologia']){
+  for(const view of ['panorama','enfermedades','atlas','egresos','urgencias','lesiones','laboratorio','fuentes','metodologia']){
    globalThis.location=new URL('https://example.org/observatoriosaludmx/?view='+view);
    const html=renderToStaticMarkup(createElement(App));
    assert.match(html,/Edición pública/);
@@ -32,10 +32,14 @@ test('public views show official totals and keep unavailable modules explicit', 
     panorama:/819,672/,
     enfermedades:/192,518/,
     atlas:/Mapa de frecuencias por entidad/,
+    egresos:/Egresos institucionales por año de registro/,
+    urgencias:/Urgencias por año de registro/,
+    lesiones:/Lesiones por año de registro/,
     metodologia:/Qué se puede interpretar en esta versión/,
    };
    assert.match(html,expected[view]??/Datos no disponibles en la edición pública/);
    if(view==='atlas')assert.match(html,/36,807/);
+   if(view==='urgencias')assert.match(html,/En 2024 se contabilizaron 7,989,731 registros/);
   }
  } finally {
   delete globalThis.location;
