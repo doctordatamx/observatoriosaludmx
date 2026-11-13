@@ -3,7 +3,7 @@
     "id": "egresos",
     "landing_url": "http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_egresoshosp_gobmx.html",
     "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
-    "consulted_date": "2026-11-04",
+    "consulted_date": "2026-11-13",
     "file_url": null,
     "record_count": null,
     "size_bytes": null,
@@ -31,7 +31,7 @@
       "2023": 2591278,
       "2024": 2649236,
       "2025": 2596893,
-      "2026": 1948203
+      "2026": 2070352
     },
     "sectorial_years": [
       2020,
@@ -45,7 +45,7 @@
     "id": "urgencias",
     "landing_url": "http://www.dgis.salud.gob.mx/contenidos/basesdedatos/da_urgencias_gobmx.html",
     "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
-    "consulted_date": "2026-11-04",
+    "consulted_date": "2026-11-13",
     "file_url": null,
     "record_count": null,
     "size_bytes": null,
@@ -73,7 +73,7 @@
       "2023": 7806625,
       "2024": 7989731,
       "2025": 7651752,
-      "2026": 5891719
+      "2026": 6274964
     }
   },
   {
@@ -110,7 +110,7 @@
     "id": "lesiones",
     "landing_url": "https://sinba.salud.gob.mx/cuboLESIONES/lesiones2024/",
     "status": "local_aggregates_from_2020_internal_checks_passed_external_pending",
-    "consulted_date": "2026-11-04",
+    "consulted_date": "2026-11-13",
     "file_url": null,
     "record_count": null,
     "size_bytes": null,
@@ -137,7 +137,7 @@
       "2023": 934009,
       "2024": 1074543,
       "2025": 1197588,
-      "2026": 964803
+      "2026": 1025528
     }
   }
 ]

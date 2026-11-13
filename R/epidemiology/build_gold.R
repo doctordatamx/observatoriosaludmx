@@ -77,7 +77,7 @@ build_gold <- function() {
   meta[[length(meta)+1L]] <- info;quality[[id]]<-counts
   rm(d,cube,packed);gc()
  }
- index <- list(updated='2026-11-04',local_only=TRUE,age_groups=age_groups,states=labels$states,causes=labels$causes,datasets=meta,methodology='METODOLOGIA.md')
+ index <- list(updated=as.character(Sys.Date()),local_only=TRUE,age_groups=age_groups,states=labels$states,causes=labels$causes,datasets=meta,methodology='METODOLOGIA.md')
  write_json(index,'frontend/public/data/index.json',auto_unbox=TRUE,pretty=TRUE,null='null')
  write_json(quality,'reports/GOLD_QUALITY.json',auto_unbox=TRUE,pretty=TRUE)
  write_json(meta,'data/gold/manifest.json',auto_unbox=TRUE,pretty=TRUE)

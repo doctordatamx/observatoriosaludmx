@@ -12,7 +12,7 @@ function commitId(){
 export default defineConfig(({mode,command})=>({
  base:'./',
  publicDir:mode==='pages'?false:'public',
- build:{outDir:mode==='pages'?'dist-pages':'dist'},
+ build:{outDir:['pages','fullpages'].includes(mode)?'dist-pages':'dist'},
  define:{
   __BUILD_COMMIT__:JSON.stringify(commitId()),
   __BUILD_AT__:JSON.stringify(command==='build'?new Date().toISOString():null),

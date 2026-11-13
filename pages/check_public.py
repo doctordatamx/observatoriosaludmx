@@ -22,7 +22,22 @@ html = Index()
 html.feed((root / "index.html").read_text(encoding="utf-8"))
 if not html.assets or not all(asset.startswith("./assets/") and (root / asset).is_file() for asset in html.assets):
     raise SystemExit("Los recursos de la página deben existir y ser relativos al sitio.")
-allowed = {".nojekyll", "index.html", "assets", "docs", "geo"}
+# The complete edition must ship byte-identical research assets.
+if (root / "data/index.json").is_file():
+    source = root.parent / "public"
+    files = {p.relative_to(source).as_posix(): p for folder in ("data", "geo") for p in (source / folder).rglob("*") if p.is_file() and p.name != ".gitkeep"}
+    shipped = {p.relative_to(root).as_posix() for folder in ("data", "geo") for p in (root / folder).rglob("*") if p.is_file() and p.name != ".gitkeep"}
+    assert shipped == set(files), "El inventario publicado difiere del local"
+    for name, original in files.items():
+        assert hashlib.sha256(original.read_bytes()).digest() == hashlib.sha256((root / name).read_bytes()).digest(), name
+        assert original.suffix in {".json", ".gz"}, name
+    catalog = json.loads((root / "data/index.json").read_text(encoding="utf-8"))
+    for dataset in catalog["datasets"]:
+        assert (root / "data" / dataset["file"]).is_file(), dataset["id"]
+    assert {p.name for p in root.iterdir()} <= {".nojekyll","index.html","assets","docs","data","geo"}
+    print(f"Edición completa: {len(catalog['datasets'])} conjuntos y {len(files)} archivos idénticos al entorno local.")
+    raise SystemExit(0)
+allowed = {".nojekyll", "index.html", "assets", "docs", "geo", "analysis"}
 if {path.name for path in root.iterdir()} != allowed:
     raise SystemExit("Contenido inesperado en el artefacto público.")
 if any(file.suffix != ".md" for file in (root / "docs").rglob("*") if file.is_file()):
@@ -49,3 +64,17 @@ if (len(features) != 32 or set(metadata["states"]) != states
            or not item["geometry"]["coordinates"] for item in features)):
     raise SystemExit("La cartografía estatal no corresponde a las 32 claves y nombres oficiales.")
 print("Recursos relativos y cartografía estatal verificados. Sin cubos ni archivos epidemiológicos locales.")
+
+analysis = root / "analysis"
+diseases = json.loads((analysis / "diseases.json").read_text(encoding="utf-8"))
+assert diseases["suppression_minimum"] >= 20
+for dataset in diseases["datasets"]:
+    assert set(dataset) == {"id","source","year","partial","cutoffs","url","sha256","counts"}
+    assert all(isinstance(n,int) and n >= 20 for n in dataset["counts"].values())
+lab_index = json.loads((analysis / "lab/index.json").read_text(encoding="utf-8"))
+assert lab_index["minimum_records"] >= 1000
+for dataset in lab_index["datasets"]:
+    model = json.loads((analysis / "lab" / (dataset["id"]+".json")).read_text(encoding="utf-8"))
+    assert not model["anomalies"]
+expected = {"diseases.json","lab/index.json"} | {"lab/"+d["id"]+".json" for d in lab_index["datasets"]}
+assert {p.relative_to(analysis).as_posix() for p in analysis.rglob("*") if p.is_file()} == expected

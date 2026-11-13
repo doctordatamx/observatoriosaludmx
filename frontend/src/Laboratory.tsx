@@ -1,5 +1,5 @@
 import {matchesDisease} from './diseaseSearch';
-import {ObservatoryAssets,type AssetReader} from './observatoryAssets';
+import {ObservatoryAssets,siteAssets,type AssetReader} from './observatoryAssets';
 import ClusterScatter, {type Mds} from './ClusterScatter';
 import ClusterTree, {type WardTree} from './ClusterTree';
 import {useContext,useEffect,useState} from 'react';
@@ -13,7 +13,7 @@ const decimal=(n:number|null)=>n==null?'—':n.toLocaleString('es-MX',{maximumFr
 const percent=(n:number)=>decimal(n*100)+' %';
 const months=['','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
 async function readModel<T>(read:AssetReader,file:string,signal:AbortSignal):Promise<T>{
- const r=await read('data/lab/'+file,{signal});
+ const r=await read((read===siteAssets&&import.meta.env.MODE==='pages'?'analysis/lab/':'data/lab/')+file,{signal});
  if(!r.ok)throw Error('No se pudo cargar el análisis.');
  return r.json();
 }

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "build:pages": "tsc --noEmit && vite build --mode pages && python ../pages/package_public.py"
+    "build:pages": "tsc --noEmit && vite build --mode fullpages && python ../pages/package_public.py --full"
   },
   "dependencies": {
     "react": "^19.0.0",

@@ -49,11 +49,10 @@ Las consultas detalladas permiten exportar tablas CSV, gráficas SVG y fichas me
 
 ## Edición pública y ejecución local
 
-El sitio de GitHub Pages publica series nacionales de las cuatro fuentes de 2020 a 2024. También muestra las defunciones por entidad de residencia y las principales causas de 2024 del INEGI.
+La edición completa de GitHub Pages utiliza la misma aplicación, colección de datos agregados, filtros y modelos que la ejecución local. Incluye búsqueda por enfermedades, series desde 2020 según fuente, Atlas municipal y Laboratorio con agrupamientos, dispersión MDS y análisis espacial.
 
-La ejecución local utiliza la colección detallada y habilita los filtros demográficos y diagnósticos, el Atlas municipal y el Laboratorio. En la edición pública se puede conectar una copia de la carpeta `frontend/public` desde **Fuentes y trazabilidad** para usar esos mismos recursos en el dispositivo. La selección de carpeta depende de las capacidades del navegador.
+Las fuentes con corte parcial se identifican en pantalla. El Laboratorio utiliza únicamente periodos completos. Las cifras son eventos registrados, no personas únicas ni tasas de incidencia. Este proyecto es independiente de la Secretaría de Salud, DGIS e INEGI.
 
-La publicación de los cruces detallados continúa sujeta a revisión de cobertura, condiciones de reutilización y protección de celdas pequeñas.
 
 ## Recomendaciones para su uso
 
@@ -87,7 +86,7 @@ Las tasas y los indicadores ajustados requieren denominadores oficiales compatib
 - **Frontend** presenta las consultas con React, TypeScript, Vite y ECharts.
 - **Validación** utiliza Python, DuckDB, Node y R para contrastar cifras y operaciones.
 
-Los archivos masivos y los agregados locales se excluyen del repositorio. Los catálogos y scripts permiten documentar y reproducir la preparación de datos.
+Los microdatos originales masivos se excluyen del repositorio. La distribución web incluye los agregados necesarios para reproducir las consultas. Los catálogos y scripts permiten documentar y reproducir la preparación de datos.
 
 ## Ejecución local
 

@@ -31,11 +31,12 @@ test('public views show official totals and keep unavailable modules explicit', 
    assert.doesNotMatch(html,/Datos reales, lectura provisional|Datos simulados/);
    const expected={
     panorama:/819,672/,
-    enfermedades:/192,518/,
+    enfermedades:/Cargando enfermedades/,
     atlas:/Mapa de frecuencias por entidad/,
     egresos:/Egresos institucionales por año de registro/,
     urgencias:/Urgencias por año de registro/,
     lesiones:/Lesiones por año de registro/,
+    laboratorio:/Configura el análisis/,
     metodologia:/Qué se puede interpretar en esta versión/,
    };
    assert.match(html,expected[view]??/Datos no disponibles en la edición pública/);
