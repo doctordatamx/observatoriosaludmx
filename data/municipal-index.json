@@ -1,0 +1,6566 @@
+{
+  "schema_version": 2,
+  "geometry_snapshot": "2026-11-04",
+  "geometry_vintage": "INEGI Marco Geoestadístico diciembre 2025",
+  "datasets": {
+    "defunciones-2024": {
+      "source": "defunciones",
+      "year": 2024,
+      "states": {
+        "01": {
+          "file": "municipal/defunciones-2024/01.json.gz",
+          "total": 7592,
+          "unmatched_geometry": 0,
+          "cells": 6347,
+          "municipalities": 11
+        },
+        "02": {
+          "file": "municipal/defunciones-2024/02.json.gz",
+          "total": 22934,
+          "unmatched_geometry": 3,
+          "cells": 16857,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/defunciones-2024/03.json.gz",
+          "total": 4237,
+          "unmatched_geometry": 0,
+          "cells": 3808,
+          "municipalities": 5
+        },
+        "04": {
+          "file": "municipal/defunciones-2024/04.json.gz",
+          "total": 5824,
+          "unmatched_geometry": 0,
+          "cells": 5037,
+          "municipalities": 13
+        },
+        "05": {
+          "file": "municipal/defunciones-2024/05.json.gz",
+          "total": 19733,
+          "unmatched_geometry": 2,
+          "cells": 16086,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/defunciones-2024/06.json.gz",
+          "total": 5614,
+          "unmatched_geometry": 1,
+          "cells": 4986,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/defunciones-2024/07.json.gz",
+          "total": 31622,
+          "unmatched_geometry": 1,
+          "cells": 28517,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/defunciones-2024/08.json.gz",
+          "total": 27302,
+          "unmatched_geometry": 1,
+          "cells": 20872,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/defunciones-2024/09.json.gz",
+          "total": 67080,
+          "unmatched_geometry": 6,
+          "cells": 47398,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/defunciones-2024/10.json.gz",
+          "total": 10445,
+          "unmatched_geometry": 1,
+          "cells": 8596,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/defunciones-2024/11.json.gz",
+          "total": 41001,
+          "unmatched_geometry": 1,
+          "cells": 31494,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/defunciones-2024/12.json.gz",
+          "total": 18824,
+          "unmatched_geometry": 66,
+          "cells": 16200,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/defunciones-2024/13.json.gz",
+          "total": 18523,
+          "unmatched_geometry": 0,
+          "cells": 17286,
+          "municipalities": 84
+        },
+        "14": {
+          "file": "municipal/defunciones-2024/14.json.gz",
+          "total": 54987,
+          "unmatched_geometry": 8,
+          "cells": 44766,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/defunciones-2024/15.json.gz",
+          "total": 99701,
+          "unmatched_geometry": 13,
+          "cells": 78748,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/defunciones-2024/16.json.gz",
+          "total": 30644,
+          "unmatched_geometry": 7,
+          "cells": 26953,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/defunciones-2024/17.json.gz",
+          "total": 15835,
+          "unmatched_geometry": 0,
+          "cells": 13774,
+          "municipalities": 36
+        },
+        "18": {
+          "file": "municipal/defunciones-2024/18.json.gz",
+          "total": 7430,
+          "unmatched_geometry": 1,
+          "cells": 6902,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/defunciones-2024/19.json.gz",
+          "total": 36807,
+          "unmatched_geometry": 42,
+          "cells": 28289,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/defunciones-2024/20.json.gz",
+          "total": 29098,
+          "unmatched_geometry": 1,
+          "cells": 27668,
+          "municipalities": 569
+        },
+        "21": {
+          "file": "municipal/defunciones-2024/21.json.gz",
+          "total": 42266,
+          "unmatched_geometry": 1,
+          "cells": 35653,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/defunciones-2024/22.json.gz",
+          "total": 12960,
+          "unmatched_geometry": 1,
+          "cells": 10926,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/defunciones-2024/23.json.gz",
+          "total": 9300,
+          "unmatched_geometry": 1,
+          "cells": 8183,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/defunciones-2024/24.json.gz",
+          "total": 19360,
+          "unmatched_geometry": 5,
+          "cells": 16532,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/defunciones-2024/25.json.gz",
+          "total": 17160,
+          "unmatched_geometry": 25,
+          "cells": 14141,
+          "municipalities": 21
+        },
+        "26": {
+          "file": "municipal/defunciones-2024/26.json.gz",
+          "total": 19757,
+          "unmatched_geometry": 1,
+          "cells": 16554,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/defunciones-2024/27.json.gz",
+          "total": 16105,
+          "unmatched_geometry": 1,
+          "cells": 13017,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/defunciones-2024/28.json.gz",
+          "total": 21600,
+          "unmatched_geometry": 0,
+          "cells": 18049,
+          "municipalities": 43
+        },
+        "29": {
+          "file": "municipal/defunciones-2024/29.json.gz",
+          "total": 7685,
+          "unmatched_geometry": 1,
+          "cells": 7327,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/defunciones-2024/30.json.gz",
+          "total": 61341,
+          "unmatched_geometry": 2,
+          "cells": 53685,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/defunciones-2024/31.json.gz",
+          "total": 16215,
+          "unmatched_geometry": 30,
+          "cells": 13442,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/defunciones-2024/32.json.gz",
+          "total": 10304,
+          "unmatched_geometry": 1,
+          "cells": 9702,
+          "municipalities": 59
+        },
+        "33": {
+          "file": "municipal/defunciones-2024/33.json.gz",
+          "total": 1501,
+          "unmatched_geometry": 1501,
+          "cells": 1275,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/defunciones-2024/99.json.gz",
+          "total": 8885,
+          "unmatched_geometry": 8885,
+          "cells": 3970,
+          "municipalities": 1
+        }
+      },
+      "total": 819672,
+      "sha256": "f31a6d5af9dcf345f248e84edd48690203bba5c63eba1ea4284101dc51d934bd"
+    },
+    "egresos-2024": {
+      "source": "egresos",
+      "year": 2024,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2024/00.json.gz",
+          "total": 13460,
+          "unmatched_geometry": 13460,
+          "cells": 8493,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2024/01.json.gz",
+          "total": 34781,
+          "unmatched_geometry": 44,
+          "cells": 19203,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/egresos-2024/02.json.gz",
+          "total": 45989,
+          "unmatched_geometry": 135,
+          "cells": 24764,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/egresos-2024/03.json.gz",
+          "total": 32511,
+          "unmatched_geometry": 37,
+          "cells": 13489,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/egresos-2024/04.json.gz",
+          "total": 24428,
+          "unmatched_geometry": 53,
+          "cells": 17403,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/egresos-2024/05.json.gz",
+          "total": 35026,
+          "unmatched_geometry": 120,
+          "cells": 24923,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/egresos-2024/06.json.gz",
+          "total": 15288,
+          "unmatched_geometry": 21,
+          "cells": 10453,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/egresos-2024/07.json.gz",
+          "total": 153675,
+          "unmatched_geometry": 480,
+          "cells": 100851,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/egresos-2024/08.json.gz",
+          "total": 70630,
+          "unmatched_geometry": 1389,
+          "cells": 48581,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/egresos-2024/09.json.gz",
+          "total": 143260,
+          "unmatched_geometry": 2845,
+          "cells": 98265,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/egresos-2024/10.json.gz",
+          "total": 59275,
+          "unmatched_geometry": 92,
+          "cells": 31494,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/egresos-2024/11.json.gz",
+          "total": 162273,
+          "unmatched_geometry": 240,
+          "cells": 108270,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/egresos-2024/12.json.gz",
+          "total": 70839,
+          "unmatched_geometry": 475,
+          "cells": 47674,
+          "municipalities": 84
+        },
+        "13": {
+          "file": "municipal/egresos-2024/13.json.gz",
+          "total": 61159,
+          "unmatched_geometry": 456,
+          "cells": 48751,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/egresos-2024/14.json.gz",
+          "total": 155462,
+          "unmatched_geometry": 8931,
+          "cells": 102776,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/egresos-2024/15.json.gz",
+          "total": 267260,
+          "unmatched_geometry": 7647,
+          "cells": 174193,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/egresos-2024/16.json.gz",
+          "total": 111705,
+          "unmatched_geometry": 2046,
+          "cells": 68457,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/egresos-2024/17.json.gz",
+          "total": 42863,
+          "unmatched_geometry": 620,
+          "cells": 24580,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/egresos-2024/18.json.gz",
+          "total": 29559,
+          "unmatched_geometry": 205,
+          "cells": 20358,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/egresos-2024/19.json.gz",
+          "total": 49232,
+          "unmatched_geometry": 8027,
+          "cells": 33269,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/egresos-2024/20.json.gz",
+          "total": 84939,
+          "unmatched_geometry": 340,
+          "cells": 70527,
+          "municipalities": 572
+        },
+        "21": {
+          "file": "municipal/egresos-2024/21.json.gz",
+          "total": 131027,
+          "unmatched_geometry": 435,
+          "cells": 93910,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/egresos-2024/22.json.gz",
+          "total": 74057,
+          "unmatched_geometry": 1668,
+          "cells": 31066,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/egresos-2024/23.json.gz",
+          "total": 32841,
+          "unmatched_geometry": 154,
+          "cells": 20106,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/egresos-2024/24.json.gz",
+          "total": 59060,
+          "unmatched_geometry": 272,
+          "cells": 43138,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/egresos-2024/25.json.gz",
+          "total": 61769,
+          "unmatched_geometry": 222,
+          "cells": 42588,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/egresos-2024/26.json.gz",
+          "total": 82668,
+          "unmatched_geometry": 83,
+          "cells": 39254,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/egresos-2024/27.json.gz",
+          "total": 137059,
+          "unmatched_geometry": 49,
+          "cells": 65498,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/egresos-2024/28.json.gz",
+          "total": 59365,
+          "unmatched_geometry": 154,
+          "cells": 42620,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/egresos-2024/29.json.gz",
+          "total": 45672,
+          "unmatched_geometry": 327,
+          "cells": 30008,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/egresos-2024/30.json.gz",
+          "total": 159180,
+          "unmatched_geometry": 771,
+          "cells": 125575,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/egresos-2024/31.json.gz",
+          "total": 52079,
+          "unmatched_geometry": 572,
+          "cells": 41223,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/egresos-2024/32.json.gz",
+          "total": 39429,
+          "unmatched_geometry": 361,
+          "cells": 30540,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/egresos-2024/88.json.gz",
+          "total": 26327,
+          "unmatched_geometry": 26327,
+          "cells": 10807,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2024/99.json.gz",
+          "total": 25089,
+          "unmatched_geometry": 25089,
+          "cells": 17298,
+          "municipalities": 1
+        }
+      },
+      "total": 2649236,
+      "sha256": "48225179ef83d32123735586e97b3384b6f7d1a04a7ac61d5bbcd75080b4b1bd"
+    },
+    "egresos-2025": {
+      "source": "egresos",
+      "year": 2025,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2025/00.json.gz",
+          "total": 10561,
+          "unmatched_geometry": 10561,
+          "cells": 6885,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2025/01.json.gz",
+          "total": 35063,
+          "unmatched_geometry": 22,
+          "cells": 19693,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/egresos-2025/02.json.gz",
+          "total": 43283,
+          "unmatched_geometry": 122,
+          "cells": 23991,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/egresos-2025/03.json.gz",
+          "total": 33264,
+          "unmatched_geometry": 13,
+          "cells": 13568,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/egresos-2025/04.json.gz",
+          "total": 24537,
+          "unmatched_geometry": 30,
+          "cells": 17697,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/egresos-2025/05.json.gz",
+          "total": 35058,
+          "unmatched_geometry": 88,
+          "cells": 24444,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/egresos-2025/06.json.gz",
+          "total": 13381,
+          "unmatched_geometry": 481,
+          "cells": 9469,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/egresos-2025/07.json.gz",
+          "total": 154691,
+          "unmatched_geometry": 224,
+          "cells": 100789,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/egresos-2025/08.json.gz",
+          "total": 72106,
+          "unmatched_geometry": 1913,
+          "cells": 49562,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/egresos-2025/09.json.gz",
+          "total": 141778,
+          "unmatched_geometry": 2132,
+          "cells": 96361,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/egresos-2025/10.json.gz",
+          "total": 50941,
+          "unmatched_geometry": 70,
+          "cells": 28826,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/egresos-2025/11.json.gz",
+          "total": 163654,
+          "unmatched_geometry": 287,
+          "cells": 111288,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/egresos-2025/12.json.gz",
+          "total": 70919,
+          "unmatched_geometry": 360,
+          "cells": 48282,
+          "municipalities": 84
+        },
+        "13": {
+          "file": "municipal/egresos-2025/13.json.gz",
+          "total": 58353,
+          "unmatched_geometry": 358,
+          "cells": 47498,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/egresos-2025/14.json.gz",
+          "total": 154486,
+          "unmatched_geometry": 6714,
+          "cells": 104075,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/egresos-2025/15.json.gz",
+          "total": 249570,
+          "unmatched_geometry": 6794,
+          "cells": 166006,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/egresos-2025/16.json.gz",
+          "total": 119995,
+          "unmatched_geometry": 527,
+          "cells": 74861,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/egresos-2025/17.json.gz",
+          "total": 40459,
+          "unmatched_geometry": 252,
+          "cells": 24086,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/egresos-2025/18.json.gz",
+          "total": 29310,
+          "unmatched_geometry": 100,
+          "cells": 20412,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/egresos-2025/19.json.gz",
+          "total": 45841,
+          "unmatched_geometry": 7359,
+          "cells": 31653,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/egresos-2025/20.json.gz",
+          "total": 75107,
+          "unmatched_geometry": 242,
+          "cells": 63216,
+          "municipalities": 568
+        },
+        "21": {
+          "file": "municipal/egresos-2025/21.json.gz",
+          "total": 124974,
+          "unmatched_geometry": 390,
+          "cells": 91779,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/egresos-2025/22.json.gz",
+          "total": 73737,
+          "unmatched_geometry": 1846,
+          "cells": 31372,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/egresos-2025/23.json.gz",
+          "total": 34083,
+          "unmatched_geometry": 127,
+          "cells": 20472,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/egresos-2025/24.json.gz",
+          "total": 58671,
+          "unmatched_geometry": 133,
+          "cells": 43726,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/egresos-2025/25.json.gz",
+          "total": 56862,
+          "unmatched_geometry": 89,
+          "cells": 40526,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/egresos-2025/26.json.gz",
+          "total": 83225,
+          "unmatched_geometry": 55,
+          "cells": 38872,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/egresos-2025/27.json.gz",
+          "total": 132817,
+          "unmatched_geometry": 96,
+          "cells": 66288,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/egresos-2025/28.json.gz",
+          "total": 57893,
+          "unmatched_geometry": 121,
+          "cells": 41851,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/egresos-2025/29.json.gz",
+          "total": 50191,
+          "unmatched_geometry": 547,
+          "cells": 29898,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/egresos-2025/30.json.gz",
+          "total": 166472,
+          "unmatched_geometry": 861,
+          "cells": 122808,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/egresos-2025/31.json.gz",
+          "total": 50792,
+          "unmatched_geometry": 369,
+          "cells": 40726,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/egresos-2025/32.json.gz",
+          "total": 37468,
+          "unmatched_geometry": 155,
+          "cells": 29056,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/egresos-2025/88.json.gz",
+          "total": 6436,
+          "unmatched_geometry": 6436,
+          "cells": 5072,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2025/99.json.gz",
+          "total": 40915,
+          "unmatched_geometry": 40915,
+          "cells": 25281,
+          "municipalities": 1
+        }
+      },
+      "total": 2596893,
+      "sha256": "e1f86cd24c8ca0d6bdc583119adad918899e6d37be0833c66e50d0413bcabfcd"
+    },
+    "egresos-2026": {
+      "source": "egresos",
+      "year": 2026,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2026/00.json.gz",
+          "total": 19078,
+          "unmatched_geometry": 19078,
+          "cells": 9240,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2026/01.json.gz",
+          "total": 24213,
+          "unmatched_geometry": 11,
+          "cells": 14316,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/egresos-2026/02.json.gz",
+          "total": 35444,
+          "unmatched_geometry": 47,
+          "cells": 19734,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/egresos-2026/03.json.gz",
+          "total": 24053,
+          "unmatched_geometry": 2,
+          "cells": 9932,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/egresos-2026/04.json.gz",
+          "total": 22118,
+          "unmatched_geometry": 24,
+          "cells": 15922,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/egresos-2026/05.json.gz",
+          "total": 27697,
+          "unmatched_geometry": 74,
+          "cells": 19341,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/egresos-2026/06.json.gz",
+          "total": 9463,
+          "unmatched_geometry": 8,
+          "cells": 7050,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/egresos-2026/07.json.gz",
+          "total": 124698,
+          "unmatched_geometry": 445,
+          "cells": 80936,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/egresos-2026/08.json.gz",
+          "total": 57569,
+          "unmatched_geometry": 1070,
+          "cells": 39793,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/egresos-2026/09.json.gz",
+          "total": 107595,
+          "unmatched_geometry": 1416,
+          "cells": 73532,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/egresos-2026/10.json.gz",
+          "total": 41508,
+          "unmatched_geometry": 30,
+          "cells": 22509,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/egresos-2026/11.json.gz",
+          "total": 132321,
+          "unmatched_geometry": 310,
+          "cells": 91082,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/egresos-2026/12.json.gz",
+          "total": 62440,
+          "unmatched_geometry": 100,
+          "cells": 40535,
+          "municipalities": 84
+        },
+        "13": {
+          "file": "municipal/egresos-2026/13.json.gz",
+          "total": 37129,
+          "unmatched_geometry": 56,
+          "cells": 31268,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/egresos-2026/14.json.gz",
+          "total": 115885,
+          "unmatched_geometry": 4011,
+          "cells": 80099,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/egresos-2026/15.json.gz",
+          "total": 195299,
+          "unmatched_geometry": 4838,
+          "cells": 135740,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/egresos-2026/16.json.gz",
+          "total": 100105,
+          "unmatched_geometry": 170,
+          "cells": 60670,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/egresos-2026/17.json.gz",
+          "total": 37572,
+          "unmatched_geometry": 304,
+          "cells": 21506,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/egresos-2026/18.json.gz",
+          "total": 23187,
+          "unmatched_geometry": 56,
+          "cells": 15776,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/egresos-2026/19.json.gz",
+          "total": 36363,
+          "unmatched_geometry": 6413,
+          "cells": 24937,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/egresos-2026/20.json.gz",
+          "total": 61578,
+          "unmatched_geometry": 113,
+          "cells": 51618,
+          "municipalities": 570
+        },
+        "21": {
+          "file": "municipal/egresos-2026/21.json.gz",
+          "total": 102603,
+          "unmatched_geometry": 303,
+          "cells": 75545,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/egresos-2026/22.json.gz",
+          "total": 65680,
+          "unmatched_geometry": 1050,
+          "cells": 25423,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/egresos-2026/23.json.gz",
+          "total": 26539,
+          "unmatched_geometry": 110,
+          "cells": 15658,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/egresos-2026/24.json.gz",
+          "total": 46072,
+          "unmatched_geometry": 83,
+          "cells": 35108,
+          "municipalities": 61
+        },
+        "25": {
+          "file": "municipal/egresos-2026/25.json.gz",
+          "total": 45688,
+          "unmatched_geometry": 36,
+          "cells": 33456,
+          "municipalities": 22
+        },
+        "26": {
+          "file": "municipal/egresos-2026/26.json.gz",
+          "total": 68003,
+          "unmatched_geometry": 11,
+          "cells": 32584,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/egresos-2026/27.json.gz",
+          "total": 109198,
+          "unmatched_geometry": 143,
+          "cells": 51171,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/egresos-2026/28.json.gz",
+          "total": 49031,
+          "unmatched_geometry": 127,
+          "cells": 35071,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/egresos-2026/29.json.gz",
+          "total": 48522,
+          "unmatched_geometry": 652,
+          "cells": 24432,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/egresos-2026/30.json.gz",
+          "total": 130082,
+          "unmatched_geometry": 565,
+          "cells": 95546,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/egresos-2026/31.json.gz",
+          "total": 31787,
+          "unmatched_geometry": 223,
+          "cells": 25709,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/egresos-2026/32.json.gz",
+          "total": 30313,
+          "unmatched_geometry": 108,
+          "cells": 23118,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/egresos-2026/88.json.gz",
+          "total": 5305,
+          "unmatched_geometry": 5305,
+          "cells": 4152,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2026/99.json.gz",
+          "total": 16214,
+          "unmatched_geometry": 16214,
+          "cells": 9307,
+          "municipalities": 1
+        }
+      },
+      "total": 2070352,
+      "sha256": "06dd0fe0ae1a9943997043e52ad4433234d1a474d14bbccd207fd6c13080cc76"
+    },
+    "urgencias-2024": {
+      "source": "urgencias",
+      "year": 2024,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2024/00.json.gz",
+          "total": 71960,
+          "unmatched_geometry": 71960,
+          "cells": 29786,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2024/01.json.gz",
+          "total": 138466,
+          "unmatched_geometry": 612,
+          "cells": 77266,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/urgencias-2024/02.json.gz",
+          "total": 173910,
+          "unmatched_geometry": 838,
+          "cells": 82401,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/urgencias-2024/03.json.gz",
+          "total": 48770,
+          "unmatched_geometry": 34,
+          "cells": 29452,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/urgencias-2024/04.json.gz",
+          "total": 88179,
+          "unmatched_geometry": 83,
+          "cells": 56642,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/urgencias-2024/05.json.gz",
+          "total": 88066,
+          "unmatched_geometry": 247,
+          "cells": 57920,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/urgencias-2024/06.json.gz",
+          "total": 98154,
+          "unmatched_geometry": 8,
+          "cells": 55869,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/urgencias-2024/07.json.gz",
+          "total": 405983,
+          "unmatched_geometry": 496,
+          "cells": 252823,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/urgencias-2024/08.json.gz",
+          "total": 149847,
+          "unmatched_geometry": 10956,
+          "cells": 98256,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/urgencias-2024/09.json.gz",
+          "total": 545337,
+          "unmatched_geometry": 21832,
+          "cells": 272883,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/urgencias-2024/10.json.gz",
+          "total": 174301,
+          "unmatched_geometry": 117,
+          "cells": 92252,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/urgencias-2024/11.json.gz",
+          "total": 738045,
+          "unmatched_geometry": 3158,
+          "cells": 380320,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/urgencias-2024/12.json.gz",
+          "total": 196046,
+          "unmatched_geometry": 333,
+          "cells": 116509,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/urgencias-2024/13.json.gz",
+          "total": 165917,
+          "unmatched_geometry": 305,
+          "cells": 123234,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/urgencias-2024/14.json.gz",
+          "total": 521624,
+          "unmatched_geometry": 1011,
+          "cells": 310424,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/urgencias-2024/15.json.gz",
+          "total": 931911,
+          "unmatched_geometry": 22788,
+          "cells": 535389,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/urgencias-2024/16.json.gz",
+          "total": 151175,
+          "unmatched_geometry": 5919,
+          "cells": 111791,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/urgencias-2024/17.json.gz",
+          "total": 143133,
+          "unmatched_geometry": 566,
+          "cells": 97302,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/urgencias-2024/18.json.gz",
+          "total": 85807,
+          "unmatched_geometry": 174,
+          "cells": 58663,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/urgencias-2024/19.json.gz",
+          "total": 218078,
+          "unmatched_geometry": 30341,
+          "cells": 124211,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/urgencias-2024/20.json.gz",
+          "total": 149325,
+          "unmatched_geometry": 531,
+          "cells": 115873,
+          "municipalities": 562
+        },
+        "21": {
+          "file": "municipal/urgencias-2024/21.json.gz",
+          "total": 391652,
+          "unmatched_geometry": 1206,
+          "cells": 255054,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/urgencias-2024/22.json.gz",
+          "total": 138496,
+          "unmatched_geometry": 4436,
+          "cells": 79633,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/urgencias-2024/23.json.gz",
+          "total": 103383,
+          "unmatched_geometry": 314,
+          "cells": 59370,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/urgencias-2024/24.json.gz",
+          "total": 126842,
+          "unmatched_geometry": 677,
+          "cells": 87800,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/urgencias-2024/25.json.gz",
+          "total": 202254,
+          "unmatched_geometry": 326,
+          "cells": 108328,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/urgencias-2024/26.json.gz",
+          "total": 198051,
+          "unmatched_geometry": 1377,
+          "cells": 118541,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/urgencias-2024/27.json.gz",
+          "total": 339711,
+          "unmatched_geometry": 139,
+          "cells": 181544,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/urgencias-2024/28.json.gz",
+          "total": 183818,
+          "unmatched_geometry": 300,
+          "cells": 104862,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/urgencias-2024/29.json.gz",
+          "total": 97891,
+          "unmatched_geometry": 212,
+          "cells": 74613,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/urgencias-2024/30.json.gz",
+          "total": 462954,
+          "unmatched_geometry": 2289,
+          "cells": 332434,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/urgencias-2024/31.json.gz",
+          "total": 67310,
+          "unmatched_geometry": 229,
+          "cells": 51024,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/urgencias-2024/32.json.gz",
+          "total": 169498,
+          "unmatched_geometry": 284,
+          "cells": 111184,
+          "municipalities": 59
+        },
+        "88": {
+          "file": "municipal/urgencias-2024/88.json.gz",
+          "total": 62863,
+          "unmatched_geometry": 62863,
+          "cells": 29035,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2024/99.json.gz",
+          "total": 160974,
+          "unmatched_geometry": 160974,
+          "cells": 51274,
+          "municipalities": 1
+        }
+      },
+      "total": 7989731,
+      "sha256": "26f8611e5ff1cceb7d7a1d136a35af96ecc965bc64e90eb9eef5825d4f01621a"
+    },
+    "urgencias-2025": {
+      "source": "urgencias",
+      "year": 2025,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2025/00.json.gz",
+          "total": 68920,
+          "unmatched_geometry": 68920,
+          "cells": 29587,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2025/01.json.gz",
+          "total": 142868,
+          "unmatched_geometry": 465,
+          "cells": 78720,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/urgencias-2025/02.json.gz",
+          "total": 98117,
+          "unmatched_geometry": 492,
+          "cells": 52490,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/urgencias-2025/03.json.gz",
+          "total": 54830,
+          "unmatched_geometry": 36,
+          "cells": 32213,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/urgencias-2025/04.json.gz",
+          "total": 91669,
+          "unmatched_geometry": 92,
+          "cells": 60781,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/urgencias-2025/05.json.gz",
+          "total": 88984,
+          "unmatched_geometry": 181,
+          "cells": 59191,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/urgencias-2025/06.json.gz",
+          "total": 84991,
+          "unmatched_geometry": 11,
+          "cells": 51809,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/urgencias-2025/07.json.gz",
+          "total": 393873,
+          "unmatched_geometry": 562,
+          "cells": 251968,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/urgencias-2025/08.json.gz",
+          "total": 153020,
+          "unmatched_geometry": 11657,
+          "cells": 101774,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/urgencias-2025/09.json.gz",
+          "total": 529114,
+          "unmatched_geometry": 23626,
+          "cells": 274968,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/urgencias-2025/10.json.gz",
+          "total": 146814,
+          "unmatched_geometry": 117,
+          "cells": 79848,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/urgencias-2025/11.json.gz",
+          "total": 717885,
+          "unmatched_geometry": 2062,
+          "cells": 384509,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/urgencias-2025/12.json.gz",
+          "total": 193330,
+          "unmatched_geometry": 410,
+          "cells": 128242,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/urgencias-2025/13.json.gz",
+          "total": 165471,
+          "unmatched_geometry": 312,
+          "cells": 125740,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/urgencias-2025/14.json.gz",
+          "total": 512816,
+          "unmatched_geometry": 581,
+          "cells": 325280,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/urgencias-2025/15.json.gz",
+          "total": 894566,
+          "unmatched_geometry": 28780,
+          "cells": 528445,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/urgencias-2025/16.json.gz",
+          "total": 140239,
+          "unmatched_geometry": 563,
+          "cells": 106871,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/urgencias-2025/17.json.gz",
+          "total": 140914,
+          "unmatched_geometry": 694,
+          "cells": 100114,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/urgencias-2025/18.json.gz",
+          "total": 80590,
+          "unmatched_geometry": 193,
+          "cells": 59823,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/urgencias-2025/19.json.gz",
+          "total": 196970,
+          "unmatched_geometry": 22767,
+          "cells": 122190,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/urgencias-2025/20.json.gz",
+          "total": 140664,
+          "unmatched_geometry": 312,
+          "cells": 114057,
+          "municipalities": 562
+        },
+        "21": {
+          "file": "municipal/urgencias-2025/21.json.gz",
+          "total": 376383,
+          "unmatched_geometry": 718,
+          "cells": 251349,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/urgencias-2025/22.json.gz",
+          "total": 130844,
+          "unmatched_geometry": 5280,
+          "cells": 78980,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/urgencias-2025/23.json.gz",
+          "total": 100393,
+          "unmatched_geometry": 347,
+          "cells": 59465,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/urgencias-2025/24.json.gz",
+          "total": 113754,
+          "unmatched_geometry": 496,
+          "cells": 81116,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/urgencias-2025/25.json.gz",
+          "total": 189394,
+          "unmatched_geometry": 269,
+          "cells": 101329,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/urgencias-2025/26.json.gz",
+          "total": 202642,
+          "unmatched_geometry": 510,
+          "cells": 122518,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/urgencias-2025/27.json.gz",
+          "total": 306106,
+          "unmatched_geometry": 146,
+          "cells": 172818,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/urgencias-2025/28.json.gz",
+          "total": 170731,
+          "unmatched_geometry": 247,
+          "cells": 99589,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/urgencias-2025/29.json.gz",
+          "total": 94872,
+          "unmatched_geometry": 296,
+          "cells": 73906,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/urgencias-2025/30.json.gz",
+          "total": 439623,
+          "unmatched_geometry": 2804,
+          "cells": 322926,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/urgencias-2025/31.json.gz",
+          "total": 75001,
+          "unmatched_geometry": 709,
+          "cells": 56816,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/urgencias-2025/32.json.gz",
+          "total": 156253,
+          "unmatched_geometry": 315,
+          "cells": 103864,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/urgencias-2025/88.json.gz",
+          "total": 55703,
+          "unmatched_geometry": 55703,
+          "cells": 18856,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2025/99.json.gz",
+          "total": 203408,
+          "unmatched_geometry": 203408,
+          "cells": 64130,
+          "municipalities": 1
+        }
+      },
+      "total": 7651752,
+      "sha256": "3c1bdcb9af60dd49d3bfb248ee97fd7988dba46d81b4d13134ef7cc2da294b26"
+    },
+    "urgencias-2026": {
+      "source": "urgencias",
+      "year": 2026,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2026/00.json.gz",
+          "total": 49938,
+          "unmatched_geometry": 49938,
+          "cells": 22294,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2026/01.json.gz",
+          "total": 114031,
+          "unmatched_geometry": 211,
+          "cells": 60810,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/urgencias-2026/02.json.gz",
+          "total": 122813,
+          "unmatched_geometry": 38316,
+          "cells": 58600,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/urgencias-2026/03.json.gz",
+          "total": 35493,
+          "unmatched_geometry": 14,
+          "cells": 21299,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/urgencias-2026/04.json.gz",
+          "total": 78655,
+          "unmatched_geometry": 53,
+          "cells": 52839,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/urgencias-2026/05.json.gz",
+          "total": 73150,
+          "unmatched_geometry": 243,
+          "cells": 48509,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/urgencias-2026/06.json.gz",
+          "total": 66368,
+          "unmatched_geometry": 12,
+          "cells": 40086,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/urgencias-2026/07.json.gz",
+          "total": 305529,
+          "unmatched_geometry": 476,
+          "cells": 190156,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/urgencias-2026/08.json.gz",
+          "total": 125708,
+          "unmatched_geometry": 7692,
+          "cells": 84402,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/urgencias-2026/09.json.gz",
+          "total": 451572,
+          "unmatched_geometry": 28588,
+          "cells": 233075,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/urgencias-2026/10.json.gz",
+          "total": 106692,
+          "unmatched_geometry": 89,
+          "cells": 58173,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/urgencias-2026/11.json.gz",
+          "total": 593618,
+          "unmatched_geometry": 10221,
+          "cells": 321177,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/urgencias-2026/12.json.gz",
+          "total": 180677,
+          "unmatched_geometry": 283,
+          "cells": 121164,
+          "municipalities": 84
+        },
+        "13": {
+          "file": "municipal/urgencias-2026/13.json.gz",
+          "total": 83844,
+          "unmatched_geometry": 266,
+          "cells": 66413,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/urgencias-2026/14.json.gz",
+          "total": 396477,
+          "unmatched_geometry": 290,
+          "cells": 255873,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/urgencias-2026/15.json.gz",
+          "total": 774153,
+          "unmatched_geometry": 19320,
+          "cells": 462193,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/urgencias-2026/16.json.gz",
+          "total": 119727,
+          "unmatched_geometry": 400,
+          "cells": 92439,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/urgencias-2026/17.json.gz",
+          "total": 129867,
+          "unmatched_geometry": 1110,
+          "cells": 93499,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/urgencias-2026/18.json.gz",
+          "total": 63795,
+          "unmatched_geometry": 106,
+          "cells": 48283,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/urgencias-2026/19.json.gz",
+          "total": 175738,
+          "unmatched_geometry": 14936,
+          "cells": 95847,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/urgencias-2026/20.json.gz",
+          "total": 131547,
+          "unmatched_geometry": 431,
+          "cells": 104354,
+          "municipalities": 561
+        },
+        "21": {
+          "file": "municipal/urgencias-2026/21.json.gz",
+          "total": 313449,
+          "unmatched_geometry": 1933,
+          "cells": 212568,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/urgencias-2026/22.json.gz",
+          "total": 111458,
+          "unmatched_geometry": 4893,
+          "cells": 65259,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/urgencias-2026/23.json.gz",
+          "total": 83847,
+          "unmatched_geometry": 198,
+          "cells": 50132,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/urgencias-2026/24.json.gz",
+          "total": 97517,
+          "unmatched_geometry": 480,
+          "cells": 68996,
+          "municipalities": 61
+        },
+        "25": {
+          "file": "municipal/urgencias-2026/25.json.gz",
+          "total": 161879,
+          "unmatched_geometry": 154,
+          "cells": 92756,
+          "municipalities": 22
+        },
+        "26": {
+          "file": "municipal/urgencias-2026/26.json.gz",
+          "total": 165644,
+          "unmatched_geometry": 460,
+          "cells": 103250,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/urgencias-2026/27.json.gz",
+          "total": 243599,
+          "unmatched_geometry": 105,
+          "cells": 143052,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/urgencias-2026/28.json.gz",
+          "total": 145423,
+          "unmatched_geometry": 249,
+          "cells": 84260,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/urgencias-2026/29.json.gz",
+          "total": 71604,
+          "unmatched_geometry": 209,
+          "cells": 56637,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/urgencias-2026/30.json.gz",
+          "total": 350828,
+          "unmatched_geometry": 1645,
+          "cells": 263115,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/urgencias-2026/31.json.gz",
+          "total": 56516,
+          "unmatched_geometry": 261,
+          "cells": 43617,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/urgencias-2026/32.json.gz",
+          "total": 117522,
+          "unmatched_geometry": 613,
+          "cells": 77976,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/urgencias-2026/88.json.gz",
+          "total": 29736,
+          "unmatched_geometry": 29736,
+          "cells": 16601,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2026/99.json.gz",
+          "total": 146550,
+          "unmatched_geometry": 146550,
+          "cells": 49453,
+          "municipalities": 1
+        }
+      },
+      "total": 6274964,
+      "sha256": "3ef4c1e7fc6191b5709dc4931f2e800715e5a63c30df6fc4e279e18cbf158ca5"
+    },
+    "lesiones-2024": {
+      "source": "lesiones",
+      "year": 2024,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2024/00.json.gz",
+          "total": 11838,
+          "unmatched_geometry": 11838,
+          "cells": 6682,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2024/01.json.gz",
+          "total": 23178,
+          "unmatched_geometry": 7,
+          "cells": 15000,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2024/02.json.gz",
+          "total": 11906,
+          "unmatched_geometry": 147,
+          "cells": 9699,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/lesiones-2024/03.json.gz",
+          "total": 4795,
+          "unmatched_geometry": 1245,
+          "cells": 4460,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/lesiones-2024/04.json.gz",
+          "total": 6843,
+          "unmatched_geometry": 12,
+          "cells": 5916,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/lesiones-2024/05.json.gz",
+          "total": 14513,
+          "unmatched_geometry": 92,
+          "cells": 11376,
+          "municipalities": 38
+        },
+        "06": {
+          "file": "municipal/lesiones-2024/06.json.gz",
+          "total": 9382,
+          "unmatched_geometry": 29,
+          "cells": 3808,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2024/07.json.gz",
+          "total": 21386,
+          "unmatched_geometry": 174,
+          "cells": 18679,
+          "municipalities": 123
+        },
+        "08": {
+          "file": "municipal/lesiones-2024/08.json.gz",
+          "total": 42926,
+          "unmatched_geometry": 1216,
+          "cells": 29432,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2024/09.json.gz",
+          "total": 50522,
+          "unmatched_geometry": 4496,
+          "cells": 38370,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2024/10.json.gz",
+          "total": 16813,
+          "unmatched_geometry": 38,
+          "cells": 12978,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/lesiones-2024/11.json.gz",
+          "total": 180213,
+          "unmatched_geometry": 1039,
+          "cells": 96212,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2024/12.json.gz",
+          "total": 22200,
+          "unmatched_geometry": 91,
+          "cells": 14765,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2024/13.json.gz",
+          "total": 50807,
+          "unmatched_geometry": 531,
+          "cells": 44617,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/lesiones-2024/14.json.gz",
+          "total": 76131,
+          "unmatched_geometry": 517,
+          "cells": 57079,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2024/15.json.gz",
+          "total": 147428,
+          "unmatched_geometry": 2789,
+          "cells": 107443,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2024/16.json.gz",
+          "total": 36131,
+          "unmatched_geometry": 57,
+          "cells": 28596,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/lesiones-2024/17.json.gz",
+          "total": 18398,
+          "unmatched_geometry": 7392,
+          "cells": 12168,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/lesiones-2024/18.json.gz",
+          "total": 14324,
+          "unmatched_geometry": 45,
+          "cells": 10372,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2024/19.json.gz",
+          "total": 10858,
+          "unmatched_geometry": 175,
+          "cells": 8930,
+          "municipalities": 51
+        },
+        "20": {
+          "file": "municipal/lesiones-2024/20.json.gz",
+          "total": 18209,
+          "unmatched_geometry": 77,
+          "cells": 16763,
+          "municipalities": 465
+        },
+        "21": {
+          "file": "municipal/lesiones-2024/21.json.gz",
+          "total": 53893,
+          "unmatched_geometry": 942,
+          "cells": 43541,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/lesiones-2024/22.json.gz",
+          "total": 16952,
+          "unmatched_geometry": 65,
+          "cells": 12978,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2024/23.json.gz",
+          "total": 21633,
+          "unmatched_geometry": 85,
+          "cells": 15416,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2024/24.json.gz",
+          "total": 10860,
+          "unmatched_geometry": 66,
+          "cells": 9071,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2024/25.json.gz",
+          "total": 29555,
+          "unmatched_geometry": 54,
+          "cells": 21979,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2024/26.json.gz",
+          "total": 20925,
+          "unmatched_geometry": 2178,
+          "cells": 17040,
+          "municipalities": 70
+        },
+        "27": {
+          "file": "municipal/lesiones-2024/27.json.gz",
+          "total": 33873,
+          "unmatched_geometry": 18,
+          "cells": 26331,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2024/28.json.gz",
+          "total": 18475,
+          "unmatched_geometry": 193,
+          "cells": 15001,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/lesiones-2024/29.json.gz",
+          "total": 6867,
+          "unmatched_geometry": 237,
+          "cells": 6486,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2024/30.json.gz",
+          "total": 40024,
+          "unmatched_geometry": 239,
+          "cells": 35730,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/lesiones-2024/31.json.gz",
+          "total": 7042,
+          "unmatched_geometry": 144,
+          "cells": 5987,
+          "municipalities": 105
+        },
+        "32": {
+          "file": "municipal/lesiones-2024/32.json.gz",
+          "total": 8346,
+          "unmatched_geometry": 47,
+          "cells": 7365,
+          "municipalities": 59
+        },
+        "99": {
+          "file": "municipal/lesiones-2024/99.json.gz",
+          "total": 17297,
+          "unmatched_geometry": 17297,
+          "cells": 8614,
+          "municipalities": 1
+        }
+      },
+      "total": 1074543,
+      "sha256": "bb58eadf81980eec7e74892a247865b3a040ca28c51e51b8ad06b184041d7aa5"
+    },
+    "lesiones-2025": {
+      "source": "lesiones",
+      "year": 2025,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2025/00.json.gz",
+          "total": 22675,
+          "unmatched_geometry": 22675,
+          "cells": 8476,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2025/01.json.gz",
+          "total": 25098,
+          "unmatched_geometry": 15,
+          "cells": 15823,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2025/02.json.gz",
+          "total": 16382,
+          "unmatched_geometry": 32,
+          "cells": 12831,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/lesiones-2025/03.json.gz",
+          "total": 5058,
+          "unmatched_geometry": 1694,
+          "cells": 4613,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/lesiones-2025/04.json.gz",
+          "total": 10112,
+          "unmatched_geometry": 4,
+          "cells": 8582,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/lesiones-2025/05.json.gz",
+          "total": 15166,
+          "unmatched_geometry": 51,
+          "cells": 11970,
+          "municipalities": 38
+        },
+        "06": {
+          "file": "municipal/lesiones-2025/06.json.gz",
+          "total": 10787,
+          "unmatched_geometry": 20,
+          "cells": 4691,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2025/07.json.gz",
+          "total": 27673,
+          "unmatched_geometry": 141,
+          "cells": 24029,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/lesiones-2025/08.json.gz",
+          "total": 40229,
+          "unmatched_geometry": 618,
+          "cells": 28637,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/lesiones-2025/09.json.gz",
+          "total": 58502,
+          "unmatched_geometry": 3358,
+          "cells": 44337,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2025/10.json.gz",
+          "total": 15575,
+          "unmatched_geometry": 17,
+          "cells": 11471,
+          "municipalities": 39
+        },
+        "11": {
+          "file": "municipal/lesiones-2025/11.json.gz",
+          "total": 178704,
+          "unmatched_geometry": 2166,
+          "cells": 99156,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2025/12.json.gz",
+          "total": 30643,
+          "unmatched_geometry": 51,
+          "cells": 20133,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2025/13.json.gz",
+          "total": 51695,
+          "unmatched_geometry": 457,
+          "cells": 45764,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/lesiones-2025/14.json.gz",
+          "total": 87861,
+          "unmatched_geometry": 248,
+          "cells": 67712,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2025/15.json.gz",
+          "total": 155884,
+          "unmatched_geometry": 6295,
+          "cells": 116011,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2025/16.json.gz",
+          "total": 39511,
+          "unmatched_geometry": 106,
+          "cells": 32620,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/lesiones-2025/17.json.gz",
+          "total": 18414,
+          "unmatched_geometry": 534,
+          "cells": 14720,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/lesiones-2025/18.json.gz",
+          "total": 19878,
+          "unmatched_geometry": 77,
+          "cells": 14573,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2025/19.json.gz",
+          "total": 11018,
+          "unmatched_geometry": 222,
+          "cells": 9504,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/lesiones-2025/20.json.gz",
+          "total": 21578,
+          "unmatched_geometry": 97,
+          "cells": 20107,
+          "municipalities": 496
+        },
+        "21": {
+          "file": "municipal/lesiones-2025/21.json.gz",
+          "total": 62793,
+          "unmatched_geometry": 395,
+          "cells": 49889,
+          "municipalities": 217
+        },
+        "22": {
+          "file": "municipal/lesiones-2025/22.json.gz",
+          "total": 16693,
+          "unmatched_geometry": 85,
+          "cells": 13011,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2025/23.json.gz",
+          "total": 20812,
+          "unmatched_geometry": 231,
+          "cells": 15813,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2025/24.json.gz",
+          "total": 15909,
+          "unmatched_geometry": 79,
+          "cells": 13408,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2025/25.json.gz",
+          "total": 29426,
+          "unmatched_geometry": 16,
+          "cells": 21938,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2025/26.json.gz",
+          "total": 32055,
+          "unmatched_geometry": 4958,
+          "cells": 25022,
+          "municipalities": 71
+        },
+        "27": {
+          "file": "municipal/lesiones-2025/27.json.gz",
+          "total": 35057,
+          "unmatched_geometry": 22,
+          "cells": 27578,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2025/28.json.gz",
+          "total": 21904,
+          "unmatched_geometry": 50,
+          "cells": 17689,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/lesiones-2025/29.json.gz",
+          "total": 9967,
+          "unmatched_geometry": 186,
+          "cells": 9305,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2025/30.json.gz",
+          "total": 55638,
+          "unmatched_geometry": 895,
+          "cells": 49257,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/lesiones-2025/31.json.gz",
+          "total": 9280,
+          "unmatched_geometry": 422,
+          "cells": 8077,
+          "municipalities": 101
+        },
+        "32": {
+          "file": "municipal/lesiones-2025/32.json.gz",
+          "total": 9224,
+          "unmatched_geometry": 33,
+          "cells": 8259,
+          "municipalities": 59
+        },
+        "99": {
+          "file": "municipal/lesiones-2025/99.json.gz",
+          "total": 16387,
+          "unmatched_geometry": 16387,
+          "cells": 8714,
+          "municipalities": 1
+        }
+      },
+      "total": 1197588,
+      "sha256": "548053f6b71a87a515ac6c5471753596265e6f24fbe137d8e78693502868c890"
+    },
+    "lesiones-2026": {
+      "source": "lesiones",
+      "year": 2026,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2026/00.json.gz",
+          "total": 21899,
+          "unmatched_geometry": 21899,
+          "cells": 8244,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2026/01.json.gz",
+          "total": 17418,
+          "unmatched_geometry": 10,
+          "cells": 11001,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2026/02.json.gz",
+          "total": 13711,
+          "unmatched_geometry": 17,
+          "cells": 10879,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/lesiones-2026/03.json.gz",
+          "total": 3443,
+          "unmatched_geometry": 1333,
+          "cells": 3131,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/lesiones-2026/04.json.gz",
+          "total": 8029,
+          "unmatched_geometry": 4,
+          "cells": 6892,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/lesiones-2026/05.json.gz",
+          "total": 10752,
+          "unmatched_geometry": 31,
+          "cells": 8607,
+          "municipalities": 38
+        },
+        "06": {
+          "file": "municipal/lesiones-2026/06.json.gz",
+          "total": 11320,
+          "unmatched_geometry": 17,
+          "cells": 6422,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2026/07.json.gz",
+          "total": 23591,
+          "unmatched_geometry": 182,
+          "cells": 20301,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/lesiones-2026/08.json.gz",
+          "total": 33529,
+          "unmatched_geometry": 251,
+          "cells": 24245,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2026/09.json.gz",
+          "total": 52612,
+          "unmatched_geometry": 2178,
+          "cells": 39069,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/lesiones-2026/10.json.gz",
+          "total": 11357,
+          "unmatched_geometry": 5,
+          "cells": 8422,
+          "municipalities": 39
+        },
+        "11": {
+          "file": "municipal/lesiones-2026/11.json.gz",
+          "total": 150405,
+          "unmatched_geometry": 1848,
+          "cells": 83851,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2026/12.json.gz",
+          "total": 31390,
+          "unmatched_geometry": 74,
+          "cells": 22038,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2026/13.json.gz",
+          "total": 40113,
+          "unmatched_geometry": 361,
+          "cells": 35879,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/lesiones-2026/14.json.gz",
+          "total": 74984,
+          "unmatched_geometry": 162,
+          "cells": 56689,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/lesiones-2026/15.json.gz",
+          "total": 135152,
+          "unmatched_geometry": 3831,
+          "cells": 101167,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/lesiones-2026/16.json.gz",
+          "total": 33119,
+          "unmatched_geometry": 20,
+          "cells": 27069,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/lesiones-2026/17.json.gz",
+          "total": 18877,
+          "unmatched_geometry": 472,
+          "cells": 15441,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/lesiones-2026/18.json.gz",
+          "total": 15606,
+          "unmatched_geometry": 66,
+          "cells": 11431,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2026/19.json.gz",
+          "total": 9669,
+          "unmatched_geometry": 248,
+          "cells": 8483,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/lesiones-2026/20.json.gz",
+          "total": 20243,
+          "unmatched_geometry": 68,
+          "cells": 18664,
+          "municipalities": 481
+        },
+        "21": {
+          "file": "municipal/lesiones-2026/21.json.gz",
+          "total": 51672,
+          "unmatched_geometry": 2053,
+          "cells": 41991,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/lesiones-2026/22.json.gz",
+          "total": 16087,
+          "unmatched_geometry": 83,
+          "cells": 12120,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2026/23.json.gz",
+          "total": 16987,
+          "unmatched_geometry": 34,
+          "cells": 12849,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2026/24.json.gz",
+          "total": 15926,
+          "unmatched_geometry": 114,
+          "cells": 13586,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/lesiones-2026/25.json.gz",
+          "total": 26202,
+          "unmatched_geometry": 31,
+          "cells": 19455,
+          "municipalities": 21
+        },
+        "26": {
+          "file": "municipal/lesiones-2026/26.json.gz",
+          "total": 24598,
+          "unmatched_geometry": 3238,
+          "cells": 18920,
+          "municipalities": 72
+        },
+        "27": {
+          "file": "municipal/lesiones-2026/27.json.gz",
+          "total": 31247,
+          "unmatched_geometry": 4,
+          "cells": 25088,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2026/28.json.gz",
+          "total": 18823,
+          "unmatched_geometry": 40,
+          "cells": 15319,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/lesiones-2026/29.json.gz",
+          "total": 8617,
+          "unmatched_geometry": 179,
+          "cells": 8107,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2026/30.json.gz",
+          "total": 47351,
+          "unmatched_geometry": 308,
+          "cells": 42220,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/lesiones-2026/31.json.gz",
+          "total": 6174,
+          "unmatched_geometry": 144,
+          "cells": 5457,
+          "municipalities": 88
+        },
+        "32": {
+          "file": "municipal/lesiones-2026/32.json.gz",
+          "total": 9021,
+          "unmatched_geometry": 29,
+          "cells": 7979,
+          "municipalities": 58
+        },
+        "99": {
+          "file": "municipal/lesiones-2026/99.json.gz",
+          "total": 15604,
+          "unmatched_geometry": 15604,
+          "cells": 7724,
+          "municipalities": 1
+        }
+      },
+      "total": 1025528,
+      "sha256": "c3c05b9c783c38d2a9554286a96276b44257bdf1f85dc753d7e5fd6919a568a5"
+    },
+    "defunciones-2020": {
+      "source": "defunciones",
+      "year": 2020,
+      "states": {
+        "01": {
+          "file": "municipal/defunciones-2020/01.json.gz",
+          "total": 9548,
+          "unmatched_geometry": 1,
+          "cells": 6602,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/defunciones-2020/02.json.gz",
+          "total": 32662,
+          "unmatched_geometry": 296,
+          "cells": 17173,
+          "municipalities": 6
+        },
+        "03": {
+          "file": "municipal/defunciones-2020/03.json.gz",
+          "total": 4867,
+          "unmatched_geometry": 2,
+          "cells": 3854,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/defunciones-2020/04.json.gz",
+          "total": 7549,
+          "unmatched_geometry": 65,
+          "cells": 5625,
+          "municipalities": 12
+        },
+        "05": {
+          "file": "municipal/defunciones-2020/05.json.gz",
+          "total": 28190,
+          "unmatched_geometry": 26,
+          "cells": 18582,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/defunciones-2020/06.json.gz",
+          "total": 6057,
+          "unmatched_geometry": 0,
+          "cells": 4969,
+          "municipalities": 10
+        },
+        "07": {
+          "file": "municipal/defunciones-2020/07.json.gz",
+          "total": 38908,
+          "unmatched_geometry": 47,
+          "cells": 32131,
+          "municipalities": 124
+        },
+        "08": {
+          "file": "municipal/defunciones-2020/08.json.gz",
+          "total": 39246,
+          "unmatched_geometry": 100,
+          "cells": 23082,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/defunciones-2020/09.json.gz",
+          "total": 107292,
+          "unmatched_geometry": 87,
+          "cells": 50211,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/defunciones-2020/10.json.gz",
+          "total": 13945,
+          "unmatched_geometry": 12,
+          "cells": 9762,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/defunciones-2020/11.json.gz",
+          "total": 51677,
+          "unmatched_geometry": 8,
+          "cells": 34838,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/defunciones-2020/12.json.gz",
+          "total": 25859,
+          "unmatched_geometry": 18,
+          "cells": 20232,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/defunciones-2020/13.json.gz",
+          "total": 22655,
+          "unmatched_geometry": 6,
+          "cells": 19500,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/defunciones-2020/14.json.gz",
+          "total": 64461,
+          "unmatched_geometry": 40,
+          "cells": 47493,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/defunciones-2020/15.json.gz",
+          "total": 152668,
+          "unmatched_geometry": 57,
+          "cells": 90915,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/defunciones-2020/16.json.gz",
+          "total": 36614,
+          "unmatched_geometry": 10,
+          "cells": 30733,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/defunciones-2020/17.json.gz",
+          "total": 18442,
+          "unmatched_geometry": 31,
+          "cells": 15024,
+          "municipalities": 36
+        },
+        "18": {
+          "file": "municipal/defunciones-2020/18.json.gz",
+          "total": 8708,
+          "unmatched_geometry": 5,
+          "cells": 7524,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/defunciones-2020/19.json.gz",
+          "total": 42418,
+          "unmatched_geometry": 29,
+          "cells": 26557,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/defunciones-2020/20.json.gz",
+          "total": 33072,
+          "unmatched_geometry": 53,
+          "cells": 30553,
+          "municipalities": 568
+        },
+        "21": {
+          "file": "municipal/defunciones-2020/21.json.gz",
+          "total": 56745,
+          "unmatched_geometry": 21,
+          "cells": 42563,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/defunciones-2020/22.json.gz",
+          "total": 15114,
+          "unmatched_geometry": 5,
+          "cells": 10994,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/defunciones-2020/23.json.gz",
+          "total": 11003,
+          "unmatched_geometry": 8,
+          "cells": 7849,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/defunciones-2020/24.json.gz",
+          "total": 24427,
+          "unmatched_geometry": 16,
+          "cells": 18297,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/defunciones-2020/25.json.gz",
+          "total": 23962,
+          "unmatched_geometry": 16,
+          "cells": 15426,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/defunciones-2020/26.json.gz",
+          "total": 27814,
+          "unmatched_geometry": 8,
+          "cells": 18891,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/defunciones-2020/27.json.gz",
+          "total": 21871,
+          "unmatched_geometry": 12,
+          "cells": 14826,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/defunciones-2020/28.json.gz",
+          "total": 28025,
+          "unmatched_geometry": 2,
+          "cells": 19512,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/defunciones-2020/29.json.gz",
+          "total": 12033,
+          "unmatched_geometry": 5,
+          "cells": 10804,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/defunciones-2020/30.json.gz",
+          "total": 74758,
+          "unmatched_geometry": 19,
+          "cells": 60639,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/defunciones-2020/31.json.gz",
+          "total": 18221,
+          "unmatched_geometry": 56,
+          "cells": 13517,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/defunciones-2020/32.json.gz",
+          "total": 14519,
+          "unmatched_geometry": 3,
+          "cells": 12363,
+          "municipalities": 59
+        },
+        "33": {
+          "file": "municipal/defunciones-2020/33.json.gz",
+          "total": 843,
+          "unmatched_geometry": 843,
+          "cells": 754,
+          "municipalities": 1
+        },
+        "34": {
+          "file": "municipal/defunciones-2020/34.json.gz",
+          "total": 153,
+          "unmatched_geometry": 153,
+          "cells": 147,
+          "municipalities": 1
+        },
+        "35": {
+          "file": "municipal/defunciones-2020/35.json.gz",
+          "total": 111,
+          "unmatched_geometry": 111,
+          "cells": 105,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/defunciones-2020/99.json.gz",
+          "total": 12306,
+          "unmatched_geometry": 12306,
+          "cells": 5426,
+          "municipalities": 1
+        }
+      },
+      "total": 1086743,
+      "sha256": "05ed85fd4e2a74ed05a029457b635c6011d99ca04d506a8f09c2f1a5462cf671"
+    },
+    "defunciones-2021": {
+      "source": "defunciones",
+      "year": 2021,
+      "states": {
+        "01": {
+          "file": "municipal/defunciones-2021/01.json.gz",
+          "total": 9712,
+          "unmatched_geometry": 1,
+          "cells": 7046,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/defunciones-2021/02.json.gz",
+          "total": 28596,
+          "unmatched_geometry": 18,
+          "cells": 17019,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/defunciones-2021/03.json.gz",
+          "total": 5925,
+          "unmatched_geometry": 0,
+          "cells": 4094,
+          "municipalities": 5
+        },
+        "04": {
+          "file": "municipal/defunciones-2021/04.json.gz",
+          "total": 7509,
+          "unmatched_geometry": 21,
+          "cells": 5847,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/defunciones-2021/05.json.gz",
+          "total": 23814,
+          "unmatched_geometry": 8,
+          "cells": 17339,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/defunciones-2021/06.json.gz",
+          "total": 7121,
+          "unmatched_geometry": 1,
+          "cells": 5562,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/defunciones-2021/07.json.gz",
+          "total": 39865,
+          "unmatched_geometry": 12,
+          "cells": 33815,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/defunciones-2021/08.json.gz",
+          "total": 31716,
+          "unmatched_geometry": 4,
+          "cells": 22782,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/defunciones-2021/09.json.gz",
+          "total": 100363,
+          "unmatched_geometry": 29,
+          "cells": 48308,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/defunciones-2021/10.json.gz",
+          "total": 13750,
+          "unmatched_geometry": 18,
+          "cells": 10375,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/defunciones-2021/11.json.gz",
+          "total": 56302,
+          "unmatched_geometry": 4,
+          "cells": 36473,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/defunciones-2021/12.json.gz",
+          "total": 28177,
+          "unmatched_geometry": 17,
+          "cells": 21681,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/defunciones-2021/13.json.gz",
+          "total": 25106,
+          "unmatched_geometry": 3,
+          "cells": 20815,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/defunciones-2021/14.json.gz",
+          "total": 74630,
+          "unmatched_geometry": 23,
+          "cells": 51358,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/defunciones-2021/15.json.gz",
+          "total": 152090,
+          "unmatched_geometry": 22,
+          "cells": 90955,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/defunciones-2021/16.json.gz",
+          "total": 46874,
+          "unmatched_geometry": 5,
+          "cells": 37190,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/defunciones-2021/17.json.gz",
+          "total": 22224,
+          "unmatched_geometry": 5,
+          "cells": 16380,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/defunciones-2021/18.json.gz",
+          "total": 10297,
+          "unmatched_geometry": 5,
+          "cells": 8347,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/defunciones-2021/19.json.gz",
+          "total": 45234,
+          "unmatched_geometry": 22,
+          "cells": 28082,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/defunciones-2021/20.json.gz",
+          "total": 40257,
+          "unmatched_geometry": 10,
+          "cells": 36622,
+          "municipalities": 569
+        },
+        "21": {
+          "file": "municipal/defunciones-2021/21.json.gz",
+          "total": 65936,
+          "unmatched_geometry": 39,
+          "cells": 47372,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/defunciones-2021/22.json.gz",
+          "total": 18003,
+          "unmatched_geometry": 1,
+          "cells": 12225,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/defunciones-2021/23.json.gz",
+          "total": 11213,
+          "unmatched_geometry": 9,
+          "cells": 8251,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/defunciones-2021/24.json.gz",
+          "total": 25197,
+          "unmatched_geometry": 20,
+          "cells": 19392,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/defunciones-2021/25.json.gz",
+          "total": 23762,
+          "unmatched_geometry": 9,
+          "cells": 16139,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/defunciones-2021/26.json.gz",
+          "total": 25273,
+          "unmatched_geometry": 4,
+          "cells": 18805,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/defunciones-2021/27.json.gz",
+          "total": 19189,
+          "unmatched_geometry": 9,
+          "cells": 14576,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/defunciones-2021/28.json.gz",
+          "total": 26661,
+          "unmatched_geometry": 2,
+          "cells": 20148,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/defunciones-2021/29.json.gz",
+          "total": 12331,
+          "unmatched_geometry": 2,
+          "cells": 10832,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/defunciones-2021/30.json.gz",
+          "total": 79053,
+          "unmatched_geometry": 15,
+          "cells": 64398,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/defunciones-2021/31.json.gz",
+          "total": 18999,
+          "unmatched_geometry": 4,
+          "cells": 14119,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/defunciones-2021/32.json.gz",
+          "total": 14943,
+          "unmatched_geometry": 7,
+          "cells": 12808,
+          "municipalities": 59
+        },
+        "33": {
+          "file": "municipal/defunciones-2021/33.json.gz",
+          "total": 1148,
+          "unmatched_geometry": 1148,
+          "cells": 984,
+          "municipalities": 1
+        },
+        "34": {
+          "file": "municipal/defunciones-2021/34.json.gz",
+          "total": 354,
+          "unmatched_geometry": 354,
+          "cells": 314,
+          "municipalities": 1
+        },
+        "35": {
+          "file": "municipal/defunciones-2021/35.json.gz",
+          "total": 159,
+          "unmatched_geometry": 159,
+          "cells": 155,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/defunciones-2021/99.json.gz",
+          "total": 10466,
+          "unmatched_geometry": 10466,
+          "cells": 4485,
+          "municipalities": 1
+        }
+      },
+      "total": 1122249,
+      "sha256": "1277e4cad830da707ae9ba7912c9d2bb7a771caba800b99db4e76ca12dcfb1f0"
+    },
+    "defunciones-2022": {
+      "source": "defunciones",
+      "year": 2022,
+      "states": {
+        "01": {
+          "file": "municipal/defunciones-2022/01.json.gz",
+          "total": 8081,
+          "unmatched_geometry": 20,
+          "cells": 6479,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/defunciones-2022/02.json.gz",
+          "total": 24693,
+          "unmatched_geometry": 177,
+          "cells": 16734,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/defunciones-2022/03.json.gz",
+          "total": 4302,
+          "unmatched_geometry": 13,
+          "cells": 3671,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/defunciones-2022/04.json.gz",
+          "total": 5687,
+          "unmatched_geometry": 332,
+          "cells": 5016,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/defunciones-2022/05.json.gz",
+          "total": 21209,
+          "unmatched_geometry": 31,
+          "cells": 16629,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/defunciones-2022/06.json.gz",
+          "total": 5683,
+          "unmatched_geometry": 12,
+          "cells": 5004,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/defunciones-2022/07.json.gz",
+          "total": 31706,
+          "unmatched_geometry": 235,
+          "cells": 28264,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/defunciones-2022/08.json.gz",
+          "total": 28824,
+          "unmatched_geometry": 181,
+          "cells": 21430,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/defunciones-2022/09.json.gz",
+          "total": 69455,
+          "unmatched_geometry": 114,
+          "cells": 46505,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/defunciones-2022/10.json.gz",
+          "total": 11710,
+          "unmatched_geometry": 38,
+          "cells": 9369,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/defunciones-2022/11.json.gz",
+          "total": 42867,
+          "unmatched_geometry": 308,
+          "cells": 31634,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/defunciones-2022/12.json.gz",
+          "total": 20619,
+          "unmatched_geometry": 129,
+          "cells": 18008,
+          "municipalities": 86
+        },
+        "13": {
+          "file": "municipal/defunciones-2022/13.json.gz",
+          "total": 18575,
+          "unmatched_geometry": 22,
+          "cells": 17203,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/defunciones-2022/14.json.gz",
+          "total": 56388,
+          "unmatched_geometry": 161,
+          "cells": 44946,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/defunciones-2022/15.json.gz",
+          "total": 100734,
+          "unmatched_geometry": 231,
+          "cells": 77709,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/defunciones-2022/16.json.gz",
+          "total": 32822,
+          "unmatched_geometry": 49,
+          "cells": 28588,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/defunciones-2022/17.json.gz",
+          "total": 15897,
+          "unmatched_geometry": 30,
+          "cells": 13410,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/defunciones-2022/18.json.gz",
+          "total": 7740,
+          "unmatched_geometry": 15,
+          "cells": 6968,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/defunciones-2022/19.json.gz",
+          "total": 38134,
+          "unmatched_geometry": 213,
+          "cells": 27714,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/defunciones-2022/20.json.gz",
+          "total": 30078,
+          "unmatched_geometry": 46,
+          "cells": 28639,
+          "municipalities": 571
+        },
+        "21": {
+          "file": "municipal/defunciones-2022/21.json.gz",
+          "total": 44050,
+          "unmatched_geometry": 65,
+          "cells": 36340,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/defunciones-2022/22.json.gz",
+          "total": 13551,
+          "unmatched_geometry": 9,
+          "cells": 10933,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/defunciones-2022/23.json.gz",
+          "total": 8691,
+          "unmatched_geometry": 107,
+          "cells": 7435,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/defunciones-2022/24.json.gz",
+          "total": 20328,
+          "unmatched_geometry": 68,
+          "cells": 16996,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/defunciones-2022/25.json.gz",
+          "total": 17468,
+          "unmatched_geometry": 221,
+          "cells": 13986,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/defunciones-2022/26.json.gz",
+          "total": 21721,
+          "unmatched_geometry": 109,
+          "cells": 17487,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/defunciones-2022/27.json.gz",
+          "total": 14988,
+          "unmatched_geometry": 26,
+          "cells": 12241,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/defunciones-2022/28.json.gz",
+          "total": 22259,
+          "unmatched_geometry": 60,
+          "cells": 18025,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/defunciones-2022/29.json.gz",
+          "total": 8035,
+          "unmatched_geometry": 37,
+          "cells": 7661,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/defunciones-2022/30.json.gz",
+          "total": 61555,
+          "unmatched_geometry": 61,
+          "cells": 53773,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/defunciones-2022/31.json.gz",
+          "total": 15207,
+          "unmatched_geometry": 120,
+          "cells": 12285,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/defunciones-2022/32.json.gz",
+          "total": 12376,
+          "unmatched_geometry": 52,
+          "cells": 11083,
+          "municipalities": 59
+        },
+        "33": {
+          "file": "municipal/defunciones-2022/33.json.gz",
+          "total": 1690,
+          "unmatched_geometry": 1690,
+          "cells": 1447,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/defunciones-2022/99.json.gz",
+          "total": 10593,
+          "unmatched_geometry": 10593,
+          "cells": 4711,
+          "municipalities": 1
+        }
+      },
+      "total": 847716,
+      "sha256": "3bdccaf6a83379e49aed378e111a96678c3f09b904188357523aefc9d8834af7"
+    },
+    "defunciones-2023": {
+      "source": "defunciones",
+      "year": 2023,
+      "states": {
+        "01": {
+          "file": "municipal/defunciones-2023/01.json.gz",
+          "total": 7343,
+          "unmatched_geometry": 1,
+          "cells": 6241,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/defunciones-2023/02.json.gz",
+          "total": 22497,
+          "unmatched_geometry": 6,
+          "cells": 16260,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/defunciones-2023/03.json.gz",
+          "total": 4020,
+          "unmatched_geometry": 0,
+          "cells": 3617,
+          "municipalities": 5
+        },
+        "04": {
+          "file": "municipal/defunciones-2023/04.json.gz",
+          "total": 5589,
+          "unmatched_geometry": 3,
+          "cells": 4898,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/defunciones-2023/05.json.gz",
+          "total": 19540,
+          "unmatched_geometry": 5,
+          "cells": 15917,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/defunciones-2023/06.json.gz",
+          "total": 5594,
+          "unmatched_geometry": 2,
+          "cells": 4975,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/defunciones-2023/07.json.gz",
+          "total": 30742,
+          "unmatched_geometry": 5,
+          "cells": 27745,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/defunciones-2023/08.json.gz",
+          "total": 27341,
+          "unmatched_geometry": 10,
+          "cells": 20772,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/defunciones-2023/09.json.gz",
+          "total": 65291,
+          "unmatched_geometry": 9,
+          "cells": 45998,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/defunciones-2023/10.json.gz",
+          "total": 10193,
+          "unmatched_geometry": 1,
+          "cells": 8447,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/defunciones-2023/11.json.gz",
+          "total": 40090,
+          "unmatched_geometry": 0,
+          "cells": 30663,
+          "municipalities": 46
+        },
+        "12": {
+          "file": "municipal/defunciones-2023/12.json.gz",
+          "total": 19046,
+          "unmatched_geometry": 38,
+          "cells": 16505,
+          "municipalities": 86
+        },
+        "13": {
+          "file": "municipal/defunciones-2023/13.json.gz",
+          "total": 17631,
+          "unmatched_geometry": 1,
+          "cells": 16513,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/defunciones-2023/14.json.gz",
+          "total": 52709,
+          "unmatched_geometry": 48,
+          "cells": 43451,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/defunciones-2023/15.json.gz",
+          "total": 96278,
+          "unmatched_geometry": 10,
+          "cells": 76035,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/defunciones-2023/16.json.gz",
+          "total": 30377,
+          "unmatched_geometry": 5,
+          "cells": 26696,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/defunciones-2023/17.json.gz",
+          "total": 15439,
+          "unmatched_geometry": 2,
+          "cells": 13330,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/defunciones-2023/18.json.gz",
+          "total": 7208,
+          "unmatched_geometry": 9,
+          "cells": 6661,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/defunciones-2023/19.json.gz",
+          "total": 35813,
+          "unmatched_geometry": 22,
+          "cells": 26884,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/defunciones-2023/20.json.gz",
+          "total": 27998,
+          "unmatched_geometry": 8,
+          "cells": 26803,
+          "municipalities": 567
+        },
+        "21": {
+          "file": "municipal/defunciones-2023/21.json.gz",
+          "total": 41676,
+          "unmatched_geometry": 24,
+          "cells": 34927,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/defunciones-2023/22.json.gz",
+          "total": 12601,
+          "unmatched_geometry": 0,
+          "cells": 10590,
+          "municipalities": 18
+        },
+        "23": {
+          "file": "municipal/defunciones-2023/23.json.gz",
+          "total": 9250,
+          "unmatched_geometry": 3,
+          "cells": 8026,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/defunciones-2023/24.json.gz",
+          "total": 18602,
+          "unmatched_geometry": 19,
+          "cells": 16030,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/defunciones-2023/25.json.gz",
+          "total": 16724,
+          "unmatched_geometry": 2,
+          "cells": 13911,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/defunciones-2023/26.json.gz",
+          "total": 19775,
+          "unmatched_geometry": 1,
+          "cells": 16501,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/defunciones-2023/27.json.gz",
+          "total": 14706,
+          "unmatched_geometry": 2,
+          "cells": 12139,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/defunciones-2023/28.json.gz",
+          "total": 21010,
+          "unmatched_geometry": 1,
+          "cells": 17364,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/defunciones-2023/29.json.gz",
+          "total": 7572,
+          "unmatched_geometry": 0,
+          "cells": 7211,
+          "municipalities": 60
+        },
+        "30": {
+          "file": "municipal/defunciones-2023/30.json.gz",
+          "total": 60431,
+          "unmatched_geometry": 10,
+          "cells": 53236,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/defunciones-2023/31.json.gz",
+          "total": 15104,
+          "unmatched_geometry": 14,
+          "cells": 12546,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/defunciones-2023/32.json.gz",
+          "total": 10640,
+          "unmatched_geometry": 2,
+          "cells": 9847,
+          "municipalities": 59
+        },
+        "33": {
+          "file": "municipal/defunciones-2023/33.json.gz",
+          "total": 1703,
+          "unmatched_geometry": 1703,
+          "cells": 1417,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/defunciones-2023/99.json.gz",
+          "total": 9336,
+          "unmatched_geometry": 9336,
+          "cells": 4608,
+          "municipalities": 1
+        }
+      },
+      "total": 799869,
+      "sha256": "fae68235cb2fbc8b175130221d228476176d2c818e2bb784c134aca35924b5d0"
+    },
+    "egresos-2020": {
+      "source": "egresos",
+      "year": 2020,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2020/00.json.gz",
+          "total": 1205,
+          "unmatched_geometry": 1205,
+          "cells": 937,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2020/01.json.gz",
+          "total": 29081,
+          "unmatched_geometry": 2,
+          "cells": 14407,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/egresos-2020/02.json.gz",
+          "total": 26812,
+          "unmatched_geometry": 44,
+          "cells": 12299,
+          "municipalities": 6
+        },
+        "03": {
+          "file": "municipal/egresos-2020/03.json.gz",
+          "total": 17125,
+          "unmatched_geometry": 15,
+          "cells": 8297,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/egresos-2020/04.json.gz",
+          "total": 17392,
+          "unmatched_geometry": 48,
+          "cells": 10471,
+          "municipalities": 12
+        },
+        "05": {
+          "file": "municipal/egresos-2020/05.json.gz",
+          "total": 28885,
+          "unmatched_geometry": 43,
+          "cells": 17713,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/egresos-2020/06.json.gz",
+          "total": 14144,
+          "unmatched_geometry": 3,
+          "cells": 8620,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/egresos-2020/07.json.gz",
+          "total": 83478,
+          "unmatched_geometry": 405,
+          "cells": 56049,
+          "municipalities": 124
+        },
+        "08": {
+          "file": "municipal/egresos-2020/08.json.gz",
+          "total": 58183,
+          "unmatched_geometry": 258,
+          "cells": 32210,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/egresos-2020/09.json.gz",
+          "total": 111922,
+          "unmatched_geometry": 3634,
+          "cells": 64452,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/egresos-2020/10.json.gz",
+          "total": 42389,
+          "unmatched_geometry": 36,
+          "cells": 20530,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/egresos-2020/11.json.gz",
+          "total": 130081,
+          "unmatched_geometry": 41,
+          "cells": 79557,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/egresos-2020/12.json.gz",
+          "total": 57565,
+          "unmatched_geometry": 187,
+          "cells": 34649,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/egresos-2020/13.json.gz",
+          "total": 38699,
+          "unmatched_geometry": 219,
+          "cells": 30676,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/egresos-2020/14.json.gz",
+          "total": 120821,
+          "unmatched_geometry": 219,
+          "cells": 76350,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/egresos-2020/15.json.gz",
+          "total": 276172,
+          "unmatched_geometry": 2196,
+          "cells": 123353,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/egresos-2020/16.json.gz",
+          "total": 96169,
+          "unmatched_geometry": 221,
+          "cells": 51429,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/egresos-2020/17.json.gz",
+          "total": 36064,
+          "unmatched_geometry": 779,
+          "cells": 18839,
+          "municipalities": 34
+        },
+        "18": {
+          "file": "municipal/egresos-2020/18.json.gz",
+          "total": 15366,
+          "unmatched_geometry": 66,
+          "cells": 11169,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/egresos-2020/19.json.gz",
+          "total": 40588,
+          "unmatched_geometry": 4974,
+          "cells": 21080,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/egresos-2020/20.json.gz",
+          "total": 51196,
+          "unmatched_geometry": 76,
+          "cells": 40618,
+          "municipalities": 556
+        },
+        "21": {
+          "file": "municipal/egresos-2020/21.json.gz",
+          "total": 79711,
+          "unmatched_geometry": 366,
+          "cells": 53104,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/egresos-2020/22.json.gz",
+          "total": 35085,
+          "unmatched_geometry": 613,
+          "cells": 18277,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/egresos-2020/23.json.gz",
+          "total": 32086,
+          "unmatched_geometry": 46,
+          "cells": 17340,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/egresos-2020/24.json.gz",
+          "total": 41763,
+          "unmatched_geometry": 22,
+          "cells": 26264,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/egresos-2020/25.json.gz",
+          "total": 40376,
+          "unmatched_geometry": 14,
+          "cells": 26045,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/egresos-2020/26.json.gz",
+          "total": 71794,
+          "unmatched_geometry": 91,
+          "cells": 31111,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/egresos-2020/27.json.gz",
+          "total": 63852,
+          "unmatched_geometry": 519,
+          "cells": 35695,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/egresos-2020/28.json.gz",
+          "total": 51503,
+          "unmatched_geometry": 10,
+          "cells": 31162,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/egresos-2020/29.json.gz",
+          "total": 35975,
+          "unmatched_geometry": 52,
+          "cells": 20566,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/egresos-2020/30.json.gz",
+          "total": 111281,
+          "unmatched_geometry": 320,
+          "cells": 82376,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/egresos-2020/31.json.gz",
+          "total": 39848,
+          "unmatched_geometry": 267,
+          "cells": 27546,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/egresos-2020/32.json.gz",
+          "total": 26893,
+          "unmatched_geometry": 103,
+          "cells": 19310,
+          "municipalities": 59
+        },
+        "37": {
+          "file": "municipal/egresos-2020/37.json.gz",
+          "total": 46,
+          "unmatched_geometry": 46,
+          "cells": 42,
+          "municipalities": 1
+        },
+        "38": {
+          "file": "municipal/egresos-2020/38.json.gz",
+          "total": 66,
+          "unmatched_geometry": 66,
+          "cells": 64,
+          "municipalities": 1
+        },
+        "39": {
+          "file": "municipal/egresos-2020/39.json.gz",
+          "total": 716,
+          "unmatched_geometry": 716,
+          "cells": 646,
+          "municipalities": 1
+        },
+        "88": {
+          "file": "municipal/egresos-2020/88.json.gz",
+          "total": 267,
+          "unmatched_geometry": 267,
+          "cells": 246,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2020/99.json.gz",
+          "total": 12735,
+          "unmatched_geometry": 12735,
+          "cells": 5833,
+          "municipalities": 1
+        },
+        "??": {
+          "file": "municipal/egresos-2020/unknown.json.gz",
+          "total": 10,
+          "unmatched_geometry": 10,
+          "cells": 9,
+          "municipalities": 5
+        }
+      },
+      "total": 1937344,
+      "sha256": "a9a07cc8e6d71bfa557307ff53f38c37789d65eb5d7858214e92cc8c884a9d8a"
+    },
+    "egresos-2021": {
+      "source": "egresos",
+      "year": 2021,
+      "states": {
+        "01": {
+          "file": "municipal/egresos-2021/01.json.gz",
+          "total": 30864,
+          "unmatched_geometry": 43,
+          "cells": 16534,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/egresos-2021/02.json.gz",
+          "total": 33646,
+          "unmatched_geometry": 7918,
+          "cells": 16177,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/egresos-2021/03.json.gz",
+          "total": 24386,
+          "unmatched_geometry": 198,
+          "cells": 9449,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/egresos-2021/04.json.gz",
+          "total": 18961,
+          "unmatched_geometry": 108,
+          "cells": 12383,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/egresos-2021/05.json.gz",
+          "total": 32011,
+          "unmatched_geometry": 95,
+          "cells": 21032,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/egresos-2021/06.json.gz",
+          "total": 12389,
+          "unmatched_geometry": 5,
+          "cells": 7991,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/egresos-2021/07.json.gz",
+          "total": 101706,
+          "unmatched_geometry": 626,
+          "cells": 66705,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/egresos-2021/08.json.gz",
+          "total": 57151,
+          "unmatched_geometry": 1216,
+          "cells": 32885,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/egresos-2021/09.json.gz",
+          "total": 121428,
+          "unmatched_geometry": 7556,
+          "cells": 71783,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/egresos-2021/10.json.gz",
+          "total": 40620,
+          "unmatched_geometry": 49,
+          "cells": 24263,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/egresos-2021/11.json.gz",
+          "total": 137653,
+          "unmatched_geometry": 139,
+          "cells": 87024,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/egresos-2021/12.json.gz",
+          "total": 59229,
+          "unmatched_geometry": 548,
+          "cells": 36307,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/egresos-2021/13.json.gz",
+          "total": 42262,
+          "unmatched_geometry": 429,
+          "cells": 33922,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/egresos-2021/14.json.gz",
+          "total": 135180,
+          "unmatched_geometry": 370,
+          "cells": 89474,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/egresos-2021/15.json.gz",
+          "total": 270425,
+          "unmatched_geometry": 4898,
+          "cells": 135873,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/egresos-2021/16.json.gz",
+          "total": 114287,
+          "unmatched_geometry": 314,
+          "cells": 62642,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/egresos-2021/17.json.gz",
+          "total": 35990,
+          "unmatched_geometry": 568,
+          "cells": 18925,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/egresos-2021/18.json.gz",
+          "total": 14298,
+          "unmatched_geometry": 20,
+          "cells": 10876,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/egresos-2021/19.json.gz",
+          "total": 39695,
+          "unmatched_geometry": 6368,
+          "cells": 20937,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/egresos-2021/20.json.gz",
+          "total": 46217,
+          "unmatched_geometry": 286,
+          "cells": 36945,
+          "municipalities": 562
+        },
+        "21": {
+          "file": "municipal/egresos-2021/21.json.gz",
+          "total": 90536,
+          "unmatched_geometry": 507,
+          "cells": 59677,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/egresos-2021/22.json.gz",
+          "total": 37861,
+          "unmatched_geometry": 1313,
+          "cells": 20975,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/egresos-2021/23.json.gz",
+          "total": 33961,
+          "unmatched_geometry": 125,
+          "cells": 20052,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/egresos-2021/24.json.gz",
+          "total": 40318,
+          "unmatched_geometry": 82,
+          "cells": 27665,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/egresos-2021/25.json.gz",
+          "total": 41409,
+          "unmatched_geometry": 67,
+          "cells": 28001,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/egresos-2021/26.json.gz",
+          "total": 72314,
+          "unmatched_geometry": 52,
+          "cells": 33818,
+          "municipalities": 73
+        },
+        "27": {
+          "file": "municipal/egresos-2021/27.json.gz",
+          "total": 85886,
+          "unmatched_geometry": 862,
+          "cells": 45434,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/egresos-2021/28.json.gz",
+          "total": 49077,
+          "unmatched_geometry": 132,
+          "cells": 32809,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/egresos-2021/29.json.gz",
+          "total": 37864,
+          "unmatched_geometry": 309,
+          "cells": 22087,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/egresos-2021/30.json.gz",
+          "total": 118433,
+          "unmatched_geometry": 783,
+          "cells": 89990,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/egresos-2021/31.json.gz",
+          "total": 44315,
+          "unmatched_geometry": 516,
+          "cells": 32458,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/egresos-2021/32.json.gz",
+          "total": 29060,
+          "unmatched_geometry": 145,
+          "cells": 21672,
+          "municipalities": 59
+        },
+        "99": {
+          "file": "municipal/egresos-2021/99.json.gz",
+          "total": 39347,
+          "unmatched_geometry": 39347,
+          "cells": 19117,
+          "municipalities": 1
+        }
+      },
+      "total": 2088779,
+      "sha256": "d8da3895c367fb56b0fc131eceef526d83ce1ca3e1bb1d95729e023696036dae"
+    },
+    "egresos-2022": {
+      "source": "egresos",
+      "year": 2022,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2022/00.json.gz",
+          "total": 10535,
+          "unmatched_geometry": 10535,
+          "cells": 5819,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2022/01.json.gz",
+          "total": 33068,
+          "unmatched_geometry": 49,
+          "cells": 17297,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/egresos-2022/02.json.gz",
+          "total": 42218,
+          "unmatched_geometry": 2789,
+          "cells": 22097,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/egresos-2022/03.json.gz",
+          "total": 27151,
+          "unmatched_geometry": 137,
+          "cells": 11264,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/egresos-2022/04.json.gz",
+          "total": 23351,
+          "unmatched_geometry": 98,
+          "cells": 15702,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/egresos-2022/05.json.gz",
+          "total": 36311,
+          "unmatched_geometry": 212,
+          "cells": 24385,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/egresos-2022/06.json.gz",
+          "total": 13407,
+          "unmatched_geometry": 28,
+          "cells": 9109,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/egresos-2022/07.json.gz",
+          "total": 153530,
+          "unmatched_geometry": 754,
+          "cells": 93843,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/egresos-2022/08.json.gz",
+          "total": 72685,
+          "unmatched_geometry": 1399,
+          "cells": 41797,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/egresos-2022/09.json.gz",
+          "total": 139372,
+          "unmatched_geometry": 5896,
+          "cells": 89330,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/egresos-2022/10.json.gz",
+          "total": 47360,
+          "unmatched_geometry": 108,
+          "cells": 29291,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/egresos-2022/11.json.gz",
+          "total": 151518,
+          "unmatched_geometry": 265,
+          "cells": 98871,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/egresos-2022/12.json.gz",
+          "total": 64096,
+          "unmatched_geometry": 707,
+          "cells": 41212,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/egresos-2022/13.json.gz",
+          "total": 56913,
+          "unmatched_geometry": 787,
+          "cells": 44761,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/egresos-2022/14.json.gz",
+          "total": 145443,
+          "unmatched_geometry": 6032,
+          "cells": 95810,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/egresos-2022/15.json.gz",
+          "total": 251662,
+          "unmatched_geometry": 5585,
+          "cells": 156640,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/egresos-2022/16.json.gz",
+          "total": 136076,
+          "unmatched_geometry": 1122,
+          "cells": 79884,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/egresos-2022/17.json.gz",
+          "total": 40561,
+          "unmatched_geometry": 1043,
+          "cells": 22435,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/egresos-2022/18.json.gz",
+          "total": 23504,
+          "unmatched_geometry": 233,
+          "cells": 17300,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/egresos-2022/19.json.gz",
+          "total": 42656,
+          "unmatched_geometry": 13421,
+          "cells": 24596,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/egresos-2022/20.json.gz",
+          "total": 84458,
+          "unmatched_geometry": 301,
+          "cells": 67096,
+          "municipalities": 572
+        },
+        "21": {
+          "file": "municipal/egresos-2022/21.json.gz",
+          "total": 123995,
+          "unmatched_geometry": 904,
+          "cells": 84165,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/egresos-2022/22.json.gz",
+          "total": 45145,
+          "unmatched_geometry": 1720,
+          "cells": 24740,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/egresos-2022/23.json.gz",
+          "total": 33892,
+          "unmatched_geometry": 256,
+          "cells": 19840,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/egresos-2022/24.json.gz",
+          "total": 59188,
+          "unmatched_geometry": 261,
+          "cells": 40523,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/egresos-2022/25.json.gz",
+          "total": 57209,
+          "unmatched_geometry": 112,
+          "cells": 38496,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/egresos-2022/26.json.gz",
+          "total": 74652,
+          "unmatched_geometry": 53,
+          "cells": 36093,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/egresos-2022/27.json.gz",
+          "total": 116513,
+          "unmatched_geometry": 824,
+          "cells": 53646,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/egresos-2022/28.json.gz",
+          "total": 54951,
+          "unmatched_geometry": 284,
+          "cells": 37972,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/egresos-2022/29.json.gz",
+          "total": 42729,
+          "unmatched_geometry": 742,
+          "cells": 27245,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/egresos-2022/30.json.gz",
+          "total": 143008,
+          "unmatched_geometry": 1270,
+          "cells": 109465,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/egresos-2022/31.json.gz",
+          "total": 55021,
+          "unmatched_geometry": 1315,
+          "cells": 42451,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/egresos-2022/32.json.gz",
+          "total": 40140,
+          "unmatched_geometry": 415,
+          "cells": 30494,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/egresos-2022/88.json.gz",
+          "total": 8972,
+          "unmatched_geometry": 8972,
+          "cells": 7149,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2022/99.json.gz",
+          "total": 28607,
+          "unmatched_geometry": 28607,
+          "cells": 14734,
+          "municipalities": 1
+        }
+      },
+      "total": 2479897,
+      "sha256": "f420a46c67c385dc16779a52fff7d9bf26848e6f711a9794b340610144e3ce09"
+    },
+    "egresos-2023": {
+      "source": "egresos",
+      "year": 2023,
+      "states": {
+        "00": {
+          "file": "municipal/egresos-2023/00.json.gz",
+          "total": 10339,
+          "unmatched_geometry": 10339,
+          "cells": 6710,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/egresos-2023/01.json.gz",
+          "total": 33750,
+          "unmatched_geometry": 62,
+          "cells": 18409,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/egresos-2023/02.json.gz",
+          "total": 44542,
+          "unmatched_geometry": 1356,
+          "cells": 24204,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/egresos-2023/03.json.gz",
+          "total": 31787,
+          "unmatched_geometry": 121,
+          "cells": 13174,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/egresos-2023/04.json.gz",
+          "total": 25948,
+          "unmatched_geometry": 103,
+          "cells": 18165,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/egresos-2023/05.json.gz",
+          "total": 35265,
+          "unmatched_geometry": 159,
+          "cells": 24738,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/egresos-2023/06.json.gz",
+          "total": 15917,
+          "unmatched_geometry": 109,
+          "cells": 10800,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/egresos-2023/07.json.gz",
+          "total": 154952,
+          "unmatched_geometry": 500,
+          "cells": 98481,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/egresos-2023/08.json.gz",
+          "total": 69352,
+          "unmatched_geometry": 1349,
+          "cells": 46622,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/egresos-2023/09.json.gz",
+          "total": 144182,
+          "unmatched_geometry": 1351,
+          "cells": 96121,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/egresos-2023/10.json.gz",
+          "total": 58201,
+          "unmatched_geometry": 157,
+          "cells": 32678,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/egresos-2023/11.json.gz",
+          "total": 164486,
+          "unmatched_geometry": 443,
+          "cells": 107506,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/egresos-2023/12.json.gz",
+          "total": 68366,
+          "unmatched_geometry": 345,
+          "cells": 44774,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/egresos-2023/13.json.gz",
+          "total": 60542,
+          "unmatched_geometry": 311,
+          "cells": 47888,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/egresos-2023/14.json.gz",
+          "total": 147476,
+          "unmatched_geometry": 9804,
+          "cells": 98009,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/egresos-2023/15.json.gz",
+          "total": 259777,
+          "unmatched_geometry": 1935,
+          "cells": 167049,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/egresos-2023/16.json.gz",
+          "total": 87906,
+          "unmatched_geometry": 18220,
+          "cells": 49659,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/egresos-2023/17.json.gz",
+          "total": 44307,
+          "unmatched_geometry": 1069,
+          "cells": 24558,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/egresos-2023/18.json.gz",
+          "total": 29213,
+          "unmatched_geometry": 215,
+          "cells": 21005,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/egresos-2023/19.json.gz",
+          "total": 45299,
+          "unmatched_geometry": 10129,
+          "cells": 28915,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/egresos-2023/20.json.gz",
+          "total": 87546,
+          "unmatched_geometry": 161,
+          "cells": 70869,
+          "municipalities": 572
+        },
+        "21": {
+          "file": "municipal/egresos-2023/21.json.gz",
+          "total": 127705,
+          "unmatched_geometry": 537,
+          "cells": 89666,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/egresos-2023/22.json.gz",
+          "total": 72483,
+          "unmatched_geometry": 1616,
+          "cells": 30070,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/egresos-2023/23.json.gz",
+          "total": 32157,
+          "unmatched_geometry": 321,
+          "cells": 19112,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/egresos-2023/24.json.gz",
+          "total": 56803,
+          "unmatched_geometry": 259,
+          "cells": 39864,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/egresos-2023/25.json.gz",
+          "total": 60744,
+          "unmatched_geometry": 322,
+          "cells": 41629,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/egresos-2023/26.json.gz",
+          "total": 78085,
+          "unmatched_geometry": 97,
+          "cells": 37532,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/egresos-2023/27.json.gz",
+          "total": 126148,
+          "unmatched_geometry": 599,
+          "cells": 58129,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/egresos-2023/28.json.gz",
+          "total": 57722,
+          "unmatched_geometry": 240,
+          "cells": 40640,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/egresos-2023/29.json.gz",
+          "total": 43782,
+          "unmatched_geometry": 324,
+          "cells": 29392,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/egresos-2023/30.json.gz",
+          "total": 158102,
+          "unmatched_geometry": 702,
+          "cells": 123563,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/egresos-2023/31.json.gz",
+          "total": 58438,
+          "unmatched_geometry": 1316,
+          "cells": 44547,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/egresos-2023/32.json.gz",
+          "total": 38098,
+          "unmatched_geometry": 641,
+          "cells": 28849,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/egresos-2023/88.json.gz",
+          "total": 39410,
+          "unmatched_geometry": 39410,
+          "cells": 13591,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/egresos-2023/99.json.gz",
+          "total": 22448,
+          "unmatched_geometry": 22448,
+          "cells": 13978,
+          "municipalities": 1
+        }
+      },
+      "total": 2591278,
+      "sha256": "8ad3e2e8b9c4e532e3f9c0ba2624f42f28864a7d4c278025658901987274b2c2"
+    },
+    "urgencias-2020": {
+      "source": "urgencias",
+      "year": 2020,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2020/00.json.gz",
+          "total": 4775,
+          "unmatched_geometry": 4775,
+          "cells": 3141,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2020/01.json.gz",
+          "total": 89074,
+          "unmatched_geometry": 962,
+          "cells": 46516,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/urgencias-2020/02.json.gz",
+          "total": 104832,
+          "unmatched_geometry": 19198,
+          "cells": 47982,
+          "municipalities": 6
+        },
+        "03": {
+          "file": "municipal/urgencias-2020/03.json.gz",
+          "total": 38850,
+          "unmatched_geometry": 198,
+          "cells": 23280,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/urgencias-2020/04.json.gz",
+          "total": 48717,
+          "unmatched_geometry": 78,
+          "cells": 29115,
+          "municipalities": 12
+        },
+        "05": {
+          "file": "municipal/urgencias-2020/05.json.gz",
+          "total": 52215,
+          "unmatched_geometry": 59,
+          "cells": 32654,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/urgencias-2020/06.json.gz",
+          "total": 58962,
+          "unmatched_geometry": 16200,
+          "cells": 33900,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/urgencias-2020/07.json.gz",
+          "total": 158407,
+          "unmatched_geometry": 765,
+          "cells": 90591,
+          "municipalities": 124
+        },
+        "08": {
+          "file": "municipal/urgencias-2020/08.json.gz",
+          "total": 112520,
+          "unmatched_geometry": 7557,
+          "cells": 68769,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/urgencias-2020/09.json.gz",
+          "total": 493613,
+          "unmatched_geometry": 124620,
+          "cells": 198714,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/urgencias-2020/10.json.gz",
+          "total": 126020,
+          "unmatched_geometry": 156,
+          "cells": 65585,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/urgencias-2020/11.json.gz",
+          "total": 546283,
+          "unmatched_geometry": 294,
+          "cells": 265845,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/urgencias-2020/12.json.gz",
+          "total": 112702,
+          "unmatched_geometry": 826,
+          "cells": 62847,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/urgencias-2020/13.json.gz",
+          "total": 118382,
+          "unmatched_geometry": 3548,
+          "cells": 68176,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/urgencias-2020/14.json.gz",
+          "total": 339345,
+          "unmatched_geometry": 33983,
+          "cells": 193845,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/urgencias-2020/15.json.gz",
+          "total": 668587,
+          "unmatched_geometry": 26455,
+          "cells": 341643,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/urgencias-2020/16.json.gz",
+          "total": 155907,
+          "unmatched_geometry": 736,
+          "cells": 107066,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/urgencias-2020/17.json.gz",
+          "total": 85593,
+          "unmatched_geometry": 3561,
+          "cells": 55668,
+          "municipalities": 34
+        },
+        "18": {
+          "file": "municipal/urgencias-2020/18.json.gz",
+          "total": 45475,
+          "unmatched_geometry": 326,
+          "cells": 32859,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/urgencias-2020/19.json.gz",
+          "total": 149003,
+          "unmatched_geometry": 26295,
+          "cells": 72866,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/urgencias-2020/20.json.gz",
+          "total": 94315,
+          "unmatched_geometry": 264,
+          "cells": 68640,
+          "municipalities": 553
+        },
+        "21": {
+          "file": "municipal/urgencias-2020/21.json.gz",
+          "total": 239932,
+          "unmatched_geometry": 1679,
+          "cells": 140644,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/urgencias-2020/22.json.gz",
+          "total": 68170,
+          "unmatched_geometry": 435,
+          "cells": 34959,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/urgencias-2020/23.json.gz",
+          "total": 78173,
+          "unmatched_geometry": 97,
+          "cells": 41256,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/urgencias-2020/24.json.gz",
+          "total": 118923,
+          "unmatched_geometry": 242,
+          "cells": 73225,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/urgencias-2020/25.json.gz",
+          "total": 145704,
+          "unmatched_geometry": 137,
+          "cells": 79754,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/urgencias-2020/26.json.gz",
+          "total": 158689,
+          "unmatched_geometry": 192,
+          "cells": 88983,
+          "municipalities": 71
+        },
+        "27": {
+          "file": "municipal/urgencias-2020/27.json.gz",
+          "total": 179956,
+          "unmatched_geometry": 162,
+          "cells": 93983,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/urgencias-2020/28.json.gz",
+          "total": 135553,
+          "unmatched_geometry": 232,
+          "cells": 71384,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/urgencias-2020/29.json.gz",
+          "total": 54244,
+          "unmatched_geometry": 61,
+          "cells": 39305,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/urgencias-2020/30.json.gz",
+          "total": 292367,
+          "unmatched_geometry": 625,
+          "cells": 189474,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/urgencias-2020/31.json.gz",
+          "total": 33819,
+          "unmatched_geometry": 673,
+          "cells": 25135,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/urgencias-2020/32.json.gz",
+          "total": 126685,
+          "unmatched_geometry": 403,
+          "cells": 79557,
+          "municipalities": 59
+        },
+        "88": {
+          "file": "municipal/urgencias-2020/88.json.gz",
+          "total": 585,
+          "unmatched_geometry": 585,
+          "cells": 516,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2020/99.json.gz",
+          "total": 48426,
+          "unmatched_geometry": 48426,
+          "cells": 19454,
+          "municipalities": 1
+        }
+      },
+      "total": 5284803,
+      "sha256": "babbb26022a4a1ae6cdbc841fa38336c26d87fa26919a499f25af9e95028c7a5"
+    },
+    "urgencias-2021": {
+      "source": "urgencias",
+      "year": 2021,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2021/00.json.gz",
+          "total": 51482,
+          "unmatched_geometry": 51482,
+          "cells": 18739,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2021/01.json.gz",
+          "total": 91774,
+          "unmatched_geometry": 188,
+          "cells": 50653,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/urgencias-2021/02.json.gz",
+          "total": 88281,
+          "unmatched_geometry": 1005,
+          "cells": 40637,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/urgencias-2021/03.json.gz",
+          "total": 33034,
+          "unmatched_geometry": 16,
+          "cells": 21353,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/urgencias-2021/04.json.gz",
+          "total": 59751,
+          "unmatched_geometry": 250,
+          "cells": 38245,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/urgencias-2021/05.json.gz",
+          "total": 63386,
+          "unmatched_geometry": 91,
+          "cells": 39913,
+          "municipalities": 39
+        },
+        "06": {
+          "file": "municipal/urgencias-2021/06.json.gz",
+          "total": 55966,
+          "unmatched_geometry": 23,
+          "cells": 37013,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/urgencias-2021/07.json.gz",
+          "total": 219437,
+          "unmatched_geometry": 847,
+          "cells": 133447,
+          "municipalities": 125
+        },
+        "08": {
+          "file": "municipal/urgencias-2021/08.json.gz",
+          "total": 99909,
+          "unmatched_geometry": 11749,
+          "cells": 68916,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/urgencias-2021/09.json.gz",
+          "total": 485431,
+          "unmatched_geometry": 57605,
+          "cells": 222027,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/urgencias-2021/10.json.gz",
+          "total": 146357,
+          "unmatched_geometry": 38,
+          "cells": 76744,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/urgencias-2021/11.json.gz",
+          "total": 503358,
+          "unmatched_geometry": 321,
+          "cells": 262072,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/urgencias-2021/12.json.gz",
+          "total": 115066,
+          "unmatched_geometry": 401,
+          "cells": 65359,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/urgencias-2021/13.json.gz",
+          "total": 125546,
+          "unmatched_geometry": 7285,
+          "cells": 75682,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/urgencias-2021/14.json.gz",
+          "total": 290986,
+          "unmatched_geometry": 1044,
+          "cells": 186253,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/urgencias-2021/15.json.gz",
+          "total": 680833,
+          "unmatched_geometry": 11469,
+          "cells": 377084,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/urgencias-2021/16.json.gz",
+          "total": 149899,
+          "unmatched_geometry": 309,
+          "cells": 106812,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/urgencias-2021/17.json.gz",
+          "total": 81072,
+          "unmatched_geometry": 2983,
+          "cells": 57635,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/urgencias-2021/18.json.gz",
+          "total": 47761,
+          "unmatched_geometry": 46,
+          "cells": 35071,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/urgencias-2021/19.json.gz",
+          "total": 138476,
+          "unmatched_geometry": 38832,
+          "cells": 70137,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/urgencias-2021/20.json.gz",
+          "total": 86719,
+          "unmatched_geometry": 296,
+          "cells": 66002,
+          "municipalities": 558
+        },
+        "21": {
+          "file": "municipal/urgencias-2021/21.json.gz",
+          "total": 231047,
+          "unmatched_geometry": 743,
+          "cells": 143590,
+          "municipalities": 218
+        },
+        "22": {
+          "file": "municipal/urgencias-2021/22.json.gz",
+          "total": 74959,
+          "unmatched_geometry": 1220,
+          "cells": 46062,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/urgencias-2021/23.json.gz",
+          "total": 90186,
+          "unmatched_geometry": 303,
+          "cells": 50265,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/urgencias-2021/24.json.gz",
+          "total": 101389,
+          "unmatched_geometry": 203,
+          "cells": 70118,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/urgencias-2021/25.json.gz",
+          "total": 138984,
+          "unmatched_geometry": 227,
+          "cells": 81858,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/urgencias-2021/26.json.gz",
+          "total": 156209,
+          "unmatched_geometry": 80,
+          "cells": 92506,
+          "municipalities": 70
+        },
+        "27": {
+          "file": "municipal/urgencias-2021/27.json.gz",
+          "total": 250879,
+          "unmatched_geometry": 726,
+          "cells": 122627,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/urgencias-2021/28.json.gz",
+          "total": 116677,
+          "unmatched_geometry": 270,
+          "cells": 74990,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/urgencias-2021/29.json.gz",
+          "total": 56765,
+          "unmatched_geometry": 193,
+          "cells": 41964,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/urgencias-2021/30.json.gz",
+          "total": 285964,
+          "unmatched_geometry": 2570,
+          "cells": 196790,
+          "municipalities": 213
+        },
+        "31": {
+          "file": "municipal/urgencias-2021/31.json.gz",
+          "total": 46277,
+          "unmatched_geometry": 163,
+          "cells": 35642,
+          "municipalities": 107
+        },
+        "32": {
+          "file": "municipal/urgencias-2021/32.json.gz",
+          "total": 117614,
+          "unmatched_geometry": 392,
+          "cells": 76885,
+          "municipalities": 59
+        },
+        "37": {
+          "file": "municipal/urgencias-2021/37.json.gz",
+          "total": 14,
+          "unmatched_geometry": 14,
+          "cells": 14,
+          "municipalities": 1
+        },
+        "38": {
+          "file": "municipal/urgencias-2021/38.json.gz",
+          "total": 4,
+          "unmatched_geometry": 4,
+          "cells": 4,
+          "municipalities": 1
+        },
+        "88": {
+          "file": "municipal/urgencias-2021/88.json.gz",
+          "total": 3628,
+          "unmatched_geometry": 3628,
+          "cells": 2872,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2021/99.json.gz",
+          "total": 98185,
+          "unmatched_geometry": 98185,
+          "cells": 32959,
+          "municipalities": 1
+        }
+      },
+      "total": 5383305,
+      "sha256": "b7e139369f415264925d00be9caf1e7414cfea15a5eba3b463f4205d3e63116e"
+    },
+    "urgencias-2022": {
+      "source": "urgencias",
+      "year": 2022,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2022/00.json.gz",
+          "total": 118873,
+          "unmatched_geometry": 118873,
+          "cells": 36177,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2022/01.json.gz",
+          "total": 109478,
+          "unmatched_geometry": 229,
+          "cells": 61136,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/urgencias-2022/02.json.gz",
+          "total": 133713,
+          "unmatched_geometry": 1672,
+          "cells": 64542,
+          "municipalities": 8
+        },
+        "03": {
+          "file": "municipal/urgencias-2022/03.json.gz",
+          "total": 41234,
+          "unmatched_geometry": 22,
+          "cells": 25633,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/urgencias-2022/04.json.gz",
+          "total": 72009,
+          "unmatched_geometry": 174,
+          "cells": 46852,
+          "municipalities": 15
+        },
+        "05": {
+          "file": "municipal/urgencias-2022/05.json.gz",
+          "total": 78323,
+          "unmatched_geometry": 294,
+          "cells": 50695,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/urgencias-2022/06.json.gz",
+          "total": 73157,
+          "unmatched_geometry": 10,
+          "cells": 45774,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/urgencias-2022/07.json.gz",
+          "total": 359459,
+          "unmatched_geometry": 811,
+          "cells": 219768,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/urgencias-2022/08.json.gz",
+          "total": 122912,
+          "unmatched_geometry": 10335,
+          "cells": 80734,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/urgencias-2022/09.json.gz",
+          "total": 546245,
+          "unmatched_geometry": 44680,
+          "cells": 259159,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/urgencias-2022/10.json.gz",
+          "total": 173145,
+          "unmatched_geometry": 47,
+          "cells": 87882,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/urgencias-2022/11.json.gz",
+          "total": 628764,
+          "unmatched_geometry": 545,
+          "cells": 318200,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/urgencias-2022/12.json.gz",
+          "total": 158805,
+          "unmatched_geometry": 532,
+          "cells": 91641,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/urgencias-2022/13.json.gz",
+          "total": 133770,
+          "unmatched_geometry": 7484,
+          "cells": 91671,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/urgencias-2022/14.json.gz",
+          "total": 431052,
+          "unmatched_geometry": 884,
+          "cells": 263360,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/urgencias-2022/15.json.gz",
+          "total": 922892,
+          "unmatched_geometry": 12446,
+          "cells": 507889,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/urgencias-2022/16.json.gz",
+          "total": 110508,
+          "unmatched_geometry": 240,
+          "cells": 82212,
+          "municipalities": 115
+        },
+        "17": {
+          "file": "municipal/urgencias-2022/17.json.gz",
+          "total": 121253,
+          "unmatched_geometry": 1618,
+          "cells": 82943,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/urgencias-2022/18.json.gz",
+          "total": 75280,
+          "unmatched_geometry": 74,
+          "cells": 53669,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/urgencias-2022/19.json.gz",
+          "total": 190477,
+          "unmatched_geometry": 42966,
+          "cells": 85072,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/urgencias-2022/20.json.gz",
+          "total": 136056,
+          "unmatched_geometry": 362,
+          "cells": 104818,
+          "municipalities": 565
+        },
+        "21": {
+          "file": "municipal/urgencias-2022/21.json.gz",
+          "total": 351347,
+          "unmatched_geometry": 650,
+          "cells": 218408,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/urgencias-2022/22.json.gz",
+          "total": 108011,
+          "unmatched_geometry": 2756,
+          "cells": 64190,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/urgencias-2022/23.json.gz",
+          "total": 89073,
+          "unmatched_geometry": 417,
+          "cells": 49936,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/urgencias-2022/24.json.gz",
+          "total": 127995,
+          "unmatched_geometry": 502,
+          "cells": 86619,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/urgencias-2022/25.json.gz",
+          "total": 185373,
+          "unmatched_geometry": 259,
+          "cells": 104534,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/urgencias-2022/26.json.gz",
+          "total": 179039,
+          "unmatched_geometry": 170,
+          "cells": 106066,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/urgencias-2022/27.json.gz",
+          "total": 310758,
+          "unmatched_geometry": 8948,
+          "cells": 163432,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/urgencias-2022/28.json.gz",
+          "total": 132085,
+          "unmatched_geometry": 336,
+          "cells": 83412,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/urgencias-2022/29.json.gz",
+          "total": 85486,
+          "unmatched_geometry": 752,
+          "cells": 63133,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/urgencias-2022/30.json.gz",
+          "total": 394543,
+          "unmatched_geometry": 1111,
+          "cells": 273590,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/urgencias-2022/31.json.gz",
+          "total": 55879,
+          "unmatched_geometry": 130,
+          "cells": 43400,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/urgencias-2022/32.json.gz",
+          "total": 142364,
+          "unmatched_geometry": 366,
+          "cells": 94791,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/urgencias-2022/88.json.gz",
+          "total": 11464,
+          "unmatched_geometry": 11464,
+          "cells": 7145,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2022/99.json.gz",
+          "total": 163449,
+          "unmatched_geometry": 163449,
+          "cells": 52645,
+          "municipalities": 1
+        }
+      },
+      "total": 7074271,
+      "sha256": "dbf61cae0bc76680ea9054a5fb025dc004b0e66a6dc83624d83115726be5f309"
+    },
+    "urgencias-2023": {
+      "source": "urgencias",
+      "year": 2023,
+      "states": {
+        "00": {
+          "file": "municipal/urgencias-2023/00.json.gz",
+          "total": 137455,
+          "unmatched_geometry": 137455,
+          "cells": 41891,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/urgencias-2023/01.json.gz",
+          "total": 132861,
+          "unmatched_geometry": 511,
+          "cells": 73317,
+          "municipalities": 13
+        },
+        "02": {
+          "file": "municipal/urgencias-2023/02.json.gz",
+          "total": 144486,
+          "unmatched_geometry": 971,
+          "cells": 72623,
+          "municipalities": 9
+        },
+        "03": {
+          "file": "municipal/urgencias-2023/03.json.gz",
+          "total": 44357,
+          "unmatched_geometry": 17,
+          "cells": 27600,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/urgencias-2023/04.json.gz",
+          "total": 91765,
+          "unmatched_geometry": 104,
+          "cells": 55526,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/urgencias-2023/05.json.gz",
+          "total": 87470,
+          "unmatched_geometry": 407,
+          "cells": 58263,
+          "municipalities": 40
+        },
+        "06": {
+          "file": "municipal/urgencias-2023/06.json.gz",
+          "total": 96241,
+          "unmatched_geometry": 16,
+          "cells": 56799,
+          "municipalities": 12
+        },
+        "07": {
+          "file": "municipal/urgencias-2023/07.json.gz",
+          "total": 413549,
+          "unmatched_geometry": 625,
+          "cells": 247615,
+          "municipalities": 126
+        },
+        "08": {
+          "file": "municipal/urgencias-2023/08.json.gz",
+          "total": 145805,
+          "unmatched_geometry": 9702,
+          "cells": 94775,
+          "municipalities": 69
+        },
+        "09": {
+          "file": "municipal/urgencias-2023/09.json.gz",
+          "total": 556556,
+          "unmatched_geometry": 34727,
+          "cells": 272903,
+          "municipalities": 18
+        },
+        "10": {
+          "file": "municipal/urgencias-2023/10.json.gz",
+          "total": 178592,
+          "unmatched_geometry": 90,
+          "cells": 94934,
+          "municipalities": 41
+        },
+        "11": {
+          "file": "municipal/urgencias-2023/11.json.gz",
+          "total": 709301,
+          "unmatched_geometry": 348,
+          "cells": 361856,
+          "municipalities": 48
+        },
+        "12": {
+          "file": "municipal/urgencias-2023/12.json.gz",
+          "total": 181689,
+          "unmatched_geometry": 380,
+          "cells": 108443,
+          "municipalities": 83
+        },
+        "13": {
+          "file": "municipal/urgencias-2023/13.json.gz",
+          "total": 151322,
+          "unmatched_geometry": 1386,
+          "cells": 109849,
+          "municipalities": 86
+        },
+        "14": {
+          "file": "municipal/urgencias-2023/14.json.gz",
+          "total": 466007,
+          "unmatched_geometry": 952,
+          "cells": 286590,
+          "municipalities": 127
+        },
+        "15": {
+          "file": "municipal/urgencias-2023/15.json.gz",
+          "total": 976510,
+          "unmatched_geometry": 21559,
+          "cells": 540198,
+          "municipalities": 127
+        },
+        "16": {
+          "file": "municipal/urgencias-2023/16.json.gz",
+          "total": 26107,
+          "unmatched_geometry": 15094,
+          "cells": 17777,
+          "municipalities": 107
+        },
+        "17": {
+          "file": "municipal/urgencias-2023/17.json.gz",
+          "total": 151569,
+          "unmatched_geometry": 787,
+          "cells": 96611,
+          "municipalities": 38
+        },
+        "18": {
+          "file": "municipal/urgencias-2023/18.json.gz",
+          "total": 85213,
+          "unmatched_geometry": 187,
+          "cells": 59063,
+          "municipalities": 22
+        },
+        "19": {
+          "file": "municipal/urgencias-2023/19.json.gz",
+          "total": 192795,
+          "unmatched_geometry": 26269,
+          "cells": 102152,
+          "municipalities": 53
+        },
+        "20": {
+          "file": "municipal/urgencias-2023/20.json.gz",
+          "total": 150574,
+          "unmatched_geometry": 276,
+          "cells": 116605,
+          "municipalities": 567
+        },
+        "21": {
+          "file": "municipal/urgencias-2023/21.json.gz",
+          "total": 383207,
+          "unmatched_geometry": 590,
+          "cells": 242787,
+          "municipalities": 219
+        },
+        "22": {
+          "file": "municipal/urgencias-2023/22.json.gz",
+          "total": 133974,
+          "unmatched_geometry": 4655,
+          "cells": 76537,
+          "municipalities": 20
+        },
+        "23": {
+          "file": "municipal/urgencias-2023/23.json.gz",
+          "total": 100284,
+          "unmatched_geometry": 1239,
+          "cells": 54237,
+          "municipalities": 13
+        },
+        "24": {
+          "file": "municipal/urgencias-2023/24.json.gz",
+          "total": 126366,
+          "unmatched_geometry": 315,
+          "cells": 87571,
+          "municipalities": 60
+        },
+        "25": {
+          "file": "municipal/urgencias-2023/25.json.gz",
+          "total": 190589,
+          "unmatched_geometry": 376,
+          "cells": 106352,
+          "municipalities": 20
+        },
+        "26": {
+          "file": "municipal/urgencias-2023/26.json.gz",
+          "total": 193259,
+          "unmatched_geometry": 854,
+          "cells": 115661,
+          "municipalities": 74
+        },
+        "27": {
+          "file": "municipal/urgencias-2023/27.json.gz",
+          "total": 340399,
+          "unmatched_geometry": 172,
+          "cells": 175731,
+          "municipalities": 19
+        },
+        "28": {
+          "file": "municipal/urgencias-2023/28.json.gz",
+          "total": 167544,
+          "unmatched_geometry": 418,
+          "cells": 99098,
+          "municipalities": 45
+        },
+        "29": {
+          "file": "municipal/urgencias-2023/29.json.gz",
+          "total": 95290,
+          "unmatched_geometry": 2355,
+          "cells": 71255,
+          "municipalities": 62
+        },
+        "30": {
+          "file": "municipal/urgencias-2023/30.json.gz",
+          "total": 465294,
+          "unmatched_geometry": 3339,
+          "cells": 325045,
+          "municipalities": 214
+        },
+        "31": {
+          "file": "municipal/urgencias-2023/31.json.gz",
+          "total": 73967,
+          "unmatched_geometry": 127,
+          "cells": 53304,
+          "municipalities": 108
+        },
+        "32": {
+          "file": "municipal/urgencias-2023/32.json.gz",
+          "total": 160614,
+          "unmatched_geometry": 394,
+          "cells": 106453,
+          "municipalities": 60
+        },
+        "88": {
+          "file": "municipal/urgencias-2023/88.json.gz",
+          "total": 77848,
+          "unmatched_geometry": 77848,
+          "cells": 27948,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/urgencias-2023/99.json.gz",
+          "total": 177766,
+          "unmatched_geometry": 177766,
+          "cells": 55551,
+          "municipalities": 1
+        }
+      },
+      "total": 7806625,
+      "sha256": "efcf67949658adb06892492624e62f146499f90856055de0b4e0efdab98c924c"
+    },
+    "lesiones-2020": {
+      "source": "lesiones",
+      "year": 2020,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2020/00.json.gz",
+          "total": 675,
+          "unmatched_geometry": 675,
+          "cells": 612,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2020/01.json.gz",
+          "total": 10791,
+          "unmatched_geometry": 1,
+          "cells": 7850,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2020/02.json.gz",
+          "total": 3768,
+          "unmatched_geometry": 6,
+          "cells": 3092,
+          "municipalities": 6
+        },
+        "03": {
+          "file": "municipal/lesiones-2020/03.json.gz",
+          "total": 4830,
+          "unmatched_geometry": 74,
+          "cells": 4261,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/lesiones-2020/04.json.gz",
+          "total": 3137,
+          "unmatched_geometry": 2,
+          "cells": 2843,
+          "municipalities": 12
+        },
+        "05": {
+          "file": "municipal/lesiones-2020/05.json.gz",
+          "total": 4443,
+          "unmatched_geometry": 2,
+          "cells": 3188,
+          "municipalities": 33
+        },
+        "06": {
+          "file": "municipal/lesiones-2020/06.json.gz",
+          "total": 4189,
+          "unmatched_geometry": 9,
+          "cells": 1909,
+          "municipalities": 10
+        },
+        "07": {
+          "file": "municipal/lesiones-2020/07.json.gz",
+          "total": 5134,
+          "unmatched_geometry": 49,
+          "cells": 4633,
+          "municipalities": 115
+        },
+        "08": {
+          "file": "municipal/lesiones-2020/08.json.gz",
+          "total": 19173,
+          "unmatched_geometry": 105,
+          "cells": 14630,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2020/09.json.gz",
+          "total": 40068,
+          "unmatched_geometry": 2887,
+          "cells": 30538,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2020/10.json.gz",
+          "total": 6732,
+          "unmatched_geometry": 2,
+          "cells": 5796,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/lesiones-2020/11.json.gz",
+          "total": 108550,
+          "unmatched_geometry": 5,
+          "cells": 56297,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2020/12.json.gz",
+          "total": 15049,
+          "unmatched_geometry": 28,
+          "cells": 9276,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2020/13.json.gz",
+          "total": 11781,
+          "unmatched_geometry": 18,
+          "cells": 10367,
+          "municipalities": 83
+        },
+        "14": {
+          "file": "municipal/lesiones-2020/14.json.gz",
+          "total": 38034,
+          "unmatched_geometry": 149,
+          "cells": 26875,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2020/15.json.gz",
+          "total": 55554,
+          "unmatched_geometry": 695,
+          "cells": 41610,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2020/16.json.gz",
+          "total": 29570,
+          "unmatched_geometry": 39,
+          "cells": 22738,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/lesiones-2020/17.json.gz",
+          "total": 6778,
+          "unmatched_geometry": 76,
+          "cells": 5295,
+          "municipalities": 34
+        },
+        "18": {
+          "file": "municipal/lesiones-2020/18.json.gz",
+          "total": 6932,
+          "unmatched_geometry": 15,
+          "cells": 5221,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2020/19.json.gz",
+          "total": 2959,
+          "unmatched_geometry": 46,
+          "cells": 2062,
+          "municipalities": 49
+        },
+        "20": {
+          "file": "municipal/lesiones-2020/20.json.gz",
+          "total": 4628,
+          "unmatched_geometry": 11,
+          "cells": 4391,
+          "municipalities": 307
+        },
+        "21": {
+          "file": "municipal/lesiones-2020/21.json.gz",
+          "total": 20708,
+          "unmatched_geometry": 91,
+          "cells": 14588,
+          "municipalities": 209
+        },
+        "22": {
+          "file": "municipal/lesiones-2020/22.json.gz",
+          "total": 7294,
+          "unmatched_geometry": 21,
+          "cells": 5905,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2020/23.json.gz",
+          "total": 7916,
+          "unmatched_geometry": 14,
+          "cells": 5422,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2020/24.json.gz",
+          "total": 8452,
+          "unmatched_geometry": 14,
+          "cells": 6532,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2020/25.json.gz",
+          "total": 13882,
+          "unmatched_geometry": 1,
+          "cells": 11062,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2020/26.json.gz",
+          "total": 14918,
+          "unmatched_geometry": 3,
+          "cells": 11197,
+          "municipalities": 60
+        },
+        "27": {
+          "file": "municipal/lesiones-2020/27.json.gz",
+          "total": 9619,
+          "unmatched_geometry": 11,
+          "cells": 8228,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2020/28.json.gz",
+          "total": 7837,
+          "unmatched_geometry": 4,
+          "cells": 5182,
+          "municipalities": 43
+        },
+        "29": {
+          "file": "municipal/lesiones-2020/29.json.gz",
+          "total": 2168,
+          "unmatched_geometry": 12,
+          "cells": 1986,
+          "municipalities": 60
+        },
+        "30": {
+          "file": "municipal/lesiones-2020/30.json.gz",
+          "total": 14350,
+          "unmatched_geometry": 54,
+          "cells": 12780,
+          "municipalities": 198
+        },
+        "31": {
+          "file": "municipal/lesiones-2020/31.json.gz",
+          "total": 2893,
+          "unmatched_geometry": 14,
+          "cells": 2551,
+          "municipalities": 78
+        },
+        "32": {
+          "file": "municipal/lesiones-2020/32.json.gz",
+          "total": 2262,
+          "unmatched_geometry": 1,
+          "cells": 1802,
+          "municipalities": 48
+        },
+        "99": {
+          "file": "municipal/lesiones-2020/99.json.gz",
+          "total": 1261,
+          "unmatched_geometry": 1261,
+          "cells": 1020,
+          "municipalities": 1
+        }
+      },
+      "total": 496335,
+      "sha256": "8a4300f2414a28dbff631a15962439251fcc8fe91dd4292d16ccfdd1103dae1f"
+    },
+    "lesiones-2022": {
+      "source": "lesiones",
+      "year": 2022,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2022/00.json.gz",
+          "total": 8664,
+          "unmatched_geometry": 8664,
+          "cells": 5161,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2022/01.json.gz",
+          "total": 18817,
+          "unmatched_geometry": 3,
+          "cells": 13126,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2022/02.json.gz",
+          "total": 5748,
+          "unmatched_geometry": 23,
+          "cells": 4929,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/lesiones-2022/03.json.gz",
+          "total": 4893,
+          "unmatched_geometry": 1287,
+          "cells": 4518,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/lesiones-2022/04.json.gz",
+          "total": 7175,
+          "unmatched_geometry": 5,
+          "cells": 6110,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/lesiones-2022/05.json.gz",
+          "total": 6582,
+          "unmatched_geometry": 35,
+          "cells": 4930,
+          "municipalities": 37
+        },
+        "06": {
+          "file": "municipal/lesiones-2022/06.json.gz",
+          "total": 5847,
+          "unmatched_geometry": 19,
+          "cells": 2656,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2022/07.json.gz",
+          "total": 12217,
+          "unmatched_geometry": 131,
+          "cells": 10729,
+          "municipalities": 121
+        },
+        "08": {
+          "file": "municipal/lesiones-2022/08.json.gz",
+          "total": 31284,
+          "unmatched_geometry": 238,
+          "cells": 22076,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2022/09.json.gz",
+          "total": 44022,
+          "unmatched_geometry": 3543,
+          "cells": 33395,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2022/10.json.gz",
+          "total": 8730,
+          "unmatched_geometry": 8,
+          "cells": 7686,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/lesiones-2022/11.json.gz",
+          "total": 136154,
+          "unmatched_geometry": 76,
+          "cells": 71368,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2022/12.json.gz",
+          "total": 19345,
+          "unmatched_geometry": 77,
+          "cells": 12589,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2022/13.json.gz",
+          "total": 33972,
+          "unmatched_geometry": 584,
+          "cells": 29737,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/lesiones-2022/14.json.gz",
+          "total": 51437,
+          "unmatched_geometry": 282,
+          "cells": 38451,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2022/15.json.gz",
+          "total": 86676,
+          "unmatched_geometry": 1284,
+          "cells": 63692,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2022/16.json.gz",
+          "total": 32987,
+          "unmatched_geometry": 60,
+          "cells": 26376,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/lesiones-2022/17.json.gz",
+          "total": 14718,
+          "unmatched_geometry": 372,
+          "cells": 11576,
+          "municipalities": 36
+        },
+        "18": {
+          "file": "municipal/lesiones-2022/18.json.gz",
+          "total": 8900,
+          "unmatched_geometry": 43,
+          "cells": 6903,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2022/19.json.gz",
+          "total": 3183,
+          "unmatched_geometry": 503,
+          "cells": 2411,
+          "municipalities": 51
+        },
+        "20": {
+          "file": "municipal/lesiones-2022/20.json.gz",
+          "total": 12533,
+          "unmatched_geometry": 47,
+          "cells": 11766,
+          "municipalities": 422
+        },
+        "21": {
+          "file": "municipal/lesiones-2022/21.json.gz",
+          "total": 39479,
+          "unmatched_geometry": 293,
+          "cells": 29544,
+          "municipalities": 216
+        },
+        "22": {
+          "file": "municipal/lesiones-2022/22.json.gz",
+          "total": 10540,
+          "unmatched_geometry": 89,
+          "cells": 8550,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2022/23.json.gz",
+          "total": 15926,
+          "unmatched_geometry": 18,
+          "cells": 10865,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2022/24.json.gz",
+          "total": 10761,
+          "unmatched_geometry": 57,
+          "cells": 8142,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2022/25.json.gz",
+          "total": 22675,
+          "unmatched_geometry": 180,
+          "cells": 17606,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2022/26.json.gz",
+          "total": 17055,
+          "unmatched_geometry": 1532,
+          "cells": 13244,
+          "municipalities": 68
+        },
+        "27": {
+          "file": "municipal/lesiones-2022/27.json.gz",
+          "total": 20835,
+          "unmatched_geometry": 22,
+          "cells": 16701,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2022/28.json.gz",
+          "total": 8990,
+          "unmatched_geometry": 15,
+          "cells": 6771,
+          "municipalities": 41
+        },
+        "29": {
+          "file": "municipal/lesiones-2022/29.json.gz",
+          "total": 3713,
+          "unmatched_geometry": 104,
+          "cells": 3463,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2022/30.json.gz",
+          "total": 26039,
+          "unmatched_geometry": 232,
+          "cells": 22898,
+          "municipalities": 211
+        },
+        "31": {
+          "file": "municipal/lesiones-2022/31.json.gz",
+          "total": 6058,
+          "unmatched_geometry": 103,
+          "cells": 5105,
+          "municipalities": 99
+        },
+        "32": {
+          "file": "municipal/lesiones-2022/32.json.gz",
+          "total": 5063,
+          "unmatched_geometry": 29,
+          "cells": 4449,
+          "municipalities": 56
+        },
+        "88": {
+          "file": "municipal/lesiones-2022/88.json.gz",
+          "total": 54,
+          "unmatched_geometry": 54,
+          "cells": 53,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/lesiones-2022/99.json.gz",
+          "total": 8456,
+          "unmatched_geometry": 8456,
+          "cells": 4749,
+          "municipalities": 1
+        }
+      },
+      "total": 749528,
+      "sha256": "6844b1ba0e81fadee220259a78b676ae0b8045fcd03222085537af1b7f2b49a9"
+    },
+    "lesiones-2023": {
+      "source": "lesiones",
+      "year": 2023,
+      "states": {
+        "00": {
+          "file": "municipal/lesiones-2023/00.json.gz",
+          "total": 12800,
+          "unmatched_geometry": 12800,
+          "cells": 6788,
+          "municipalities": 1
+        },
+        "01": {
+          "file": "municipal/lesiones-2023/01.json.gz",
+          "total": 20431,
+          "unmatched_geometry": 5,
+          "cells": 14118,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2023/02.json.gz",
+          "total": 7911,
+          "unmatched_geometry": 134,
+          "cells": 6547,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/lesiones-2023/03.json.gz",
+          "total": 5699,
+          "unmatched_geometry": 1790,
+          "cells": 5214,
+          "municipalities": 7
+        },
+        "04": {
+          "file": "municipal/lesiones-2023/04.json.gz",
+          "total": 5952,
+          "unmatched_geometry": 5,
+          "cells": 5206,
+          "municipalities": 14
+        },
+        "05": {
+          "file": "municipal/lesiones-2023/05.json.gz",
+          "total": 12930,
+          "unmatched_geometry": 80,
+          "cells": 10012,
+          "municipalities": 38
+        },
+        "06": {
+          "file": "municipal/lesiones-2023/06.json.gz",
+          "total": 7523,
+          "unmatched_geometry": 91,
+          "cells": 3140,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2023/07.json.gz",
+          "total": 17089,
+          "unmatched_geometry": 240,
+          "cells": 15024,
+          "municipalities": 123
+        },
+        "08": {
+          "file": "municipal/lesiones-2023/08.json.gz",
+          "total": 40546,
+          "unmatched_geometry": 653,
+          "cells": 27895,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2023/09.json.gz",
+          "total": 52609,
+          "unmatched_geometry": 4123,
+          "cells": 39711,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2023/10.json.gz",
+          "total": 17061,
+          "unmatched_geometry": 16,
+          "cells": 13308,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/lesiones-2023/11.json.gz",
+          "total": 152329,
+          "unmatched_geometry": 60,
+          "cells": 80377,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2023/12.json.gz",
+          "total": 20243,
+          "unmatched_geometry": 50,
+          "cells": 12972,
+          "municipalities": 81
+        },
+        "13": {
+          "file": "municipal/lesiones-2023/13.json.gz",
+          "total": 43956,
+          "unmatched_geometry": 626,
+          "cells": 37767,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/lesiones-2023/14.json.gz",
+          "total": 67925,
+          "unmatched_geometry": 475,
+          "cells": 51735,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2023/15.json.gz",
+          "total": 136022,
+          "unmatched_geometry": 1932,
+          "cells": 99107,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2023/16.json.gz",
+          "total": 34038,
+          "unmatched_geometry": 76,
+          "cells": 27075,
+          "municipalities": 113
+        },
+        "17": {
+          "file": "municipal/lesiones-2023/17.json.gz",
+          "total": 12538,
+          "unmatched_geometry": 205,
+          "cells": 9703,
+          "municipalities": 37
+        },
+        "18": {
+          "file": "municipal/lesiones-2023/18.json.gz",
+          "total": 11645,
+          "unmatched_geometry": 48,
+          "cells": 8729,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2023/19.json.gz",
+          "total": 7245,
+          "unmatched_geometry": 181,
+          "cells": 5768,
+          "municipalities": 52
+        },
+        "20": {
+          "file": "municipal/lesiones-2023/20.json.gz",
+          "total": 16045,
+          "unmatched_geometry": 96,
+          "cells": 14865,
+          "municipalities": 444
+        },
+        "21": {
+          "file": "municipal/lesiones-2023/21.json.gz",
+          "total": 45409,
+          "unmatched_geometry": 479,
+          "cells": 35016,
+          "municipalities": 217
+        },
+        "22": {
+          "file": "municipal/lesiones-2023/22.json.gz",
+          "total": 12830,
+          "unmatched_geometry": 49,
+          "cells": 10092,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2023/23.json.gz",
+          "total": 15838,
+          "unmatched_geometry": 53,
+          "cells": 11456,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2023/24.json.gz",
+          "total": 11245,
+          "unmatched_geometry": 157,
+          "cells": 9051,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2023/25.json.gz",
+          "total": 26580,
+          "unmatched_geometry": 374,
+          "cells": 20133,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2023/26.json.gz",
+          "total": 17712,
+          "unmatched_geometry": 1533,
+          "cells": 14250,
+          "municipalities": 71
+        },
+        "27": {
+          "file": "municipal/lesiones-2023/27.json.gz",
+          "total": 29346,
+          "unmatched_geometry": 14,
+          "cells": 23080,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2023/28.json.gz",
+          "total": 16549,
+          "unmatched_geometry": 80,
+          "cells": 13219,
+          "municipalities": 44
+        },
+        "29": {
+          "file": "municipal/lesiones-2023/29.json.gz",
+          "total": 4777,
+          "unmatched_geometry": 140,
+          "cells": 4481,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2023/30.json.gz",
+          "total": 32522,
+          "unmatched_geometry": 335,
+          "cells": 28920,
+          "municipalities": 208
+        },
+        "31": {
+          "file": "municipal/lesiones-2023/31.json.gz",
+          "total": 5814,
+          "unmatched_geometry": 199,
+          "cells": 4904,
+          "municipalities": 93
+        },
+        "32": {
+          "file": "municipal/lesiones-2023/32.json.gz",
+          "total": 5806,
+          "unmatched_geometry": 84,
+          "cells": 5240,
+          "municipalities": 59
+        },
+        "88": {
+          "file": "municipal/lesiones-2023/88.json.gz",
+          "total": 137,
+          "unmatched_geometry": 137,
+          "cells": 128,
+          "municipalities": 1
+        },
+        "99": {
+          "file": "municipal/lesiones-2023/99.json.gz",
+          "total": 6907,
+          "unmatched_geometry": 6907,
+          "cells": 4563,
+          "municipalities": 1
+        }
+      },
+      "total": 934009,
+      "sha256": "f00f72dfe7c589e5c107ab68cccf4ee71f0b41a62387d3a8ea61133d90be41ab"
+    },
+    "lesiones-2021": {
+      "source": "lesiones",
+      "year": 2021,
+      "states": {
+        "01": {
+          "file": "municipal/lesiones-2021/01.json.gz",
+          "total": 14228,
+          "unmatched_geometry": 9,
+          "cells": 9920,
+          "municipalities": 12
+        },
+        "02": {
+          "file": "municipal/lesiones-2021/02.json.gz",
+          "total": 4688,
+          "unmatched_geometry": 12,
+          "cells": 3871,
+          "municipalities": 7
+        },
+        "03": {
+          "file": "municipal/lesiones-2021/03.json.gz",
+          "total": 5093,
+          "unmatched_geometry": 798,
+          "cells": 4605,
+          "municipalities": 6
+        },
+        "04": {
+          "file": "municipal/lesiones-2021/04.json.gz",
+          "total": 5980,
+          "unmatched_geometry": 6,
+          "cells": 5119,
+          "municipalities": 13
+        },
+        "05": {
+          "file": "municipal/lesiones-2021/05.json.gz",
+          "total": 6587,
+          "unmatched_geometry": 20,
+          "cells": 4614,
+          "municipalities": 33
+        },
+        "06": {
+          "file": "municipal/lesiones-2021/06.json.gz",
+          "total": 4213,
+          "unmatched_geometry": 29,
+          "cells": 2044,
+          "municipalities": 11
+        },
+        "07": {
+          "file": "municipal/lesiones-2021/07.json.gz",
+          "total": 8009,
+          "unmatched_geometry": 101,
+          "cells": 7170,
+          "municipalities": 116
+        },
+        "08": {
+          "file": "municipal/lesiones-2021/08.json.gz",
+          "total": 25957,
+          "unmatched_geometry": 254,
+          "cells": 19072,
+          "municipalities": 68
+        },
+        "09": {
+          "file": "municipal/lesiones-2021/09.json.gz",
+          "total": 39881,
+          "unmatched_geometry": 3242,
+          "cells": 30484,
+          "municipalities": 17
+        },
+        "10": {
+          "file": "municipal/lesiones-2021/10.json.gz",
+          "total": 10394,
+          "unmatched_geometry": 6,
+          "cells": 8932,
+          "municipalities": 40
+        },
+        "11": {
+          "file": "municipal/lesiones-2021/11.json.gz",
+          "total": 120657,
+          "unmatched_geometry": 68,
+          "cells": 63004,
+          "municipalities": 47
+        },
+        "12": {
+          "file": "municipal/lesiones-2021/12.json.gz",
+          "total": 15982,
+          "unmatched_geometry": 47,
+          "cells": 10121,
+          "municipalities": 82
+        },
+        "13": {
+          "file": "municipal/lesiones-2021/13.json.gz",
+          "total": 28776,
+          "unmatched_geometry": 131,
+          "cells": 25420,
+          "municipalities": 85
+        },
+        "14": {
+          "file": "municipal/lesiones-2021/14.json.gz",
+          "total": 43040,
+          "unmatched_geometry": 145,
+          "cells": 30888,
+          "municipalities": 126
+        },
+        "15": {
+          "file": "municipal/lesiones-2021/15.json.gz",
+          "total": 69568,
+          "unmatched_geometry": 963,
+          "cells": 51559,
+          "municipalities": 126
+        },
+        "16": {
+          "file": "municipal/lesiones-2021/16.json.gz",
+          "total": 30967,
+          "unmatched_geometry": 55,
+          "cells": 24319,
+          "municipalities": 114
+        },
+        "17": {
+          "file": "municipal/lesiones-2021/17.json.gz",
+          "total": 9573,
+          "unmatched_geometry": 191,
+          "cells": 7332,
+          "municipalities": 36
+        },
+        "18": {
+          "file": "municipal/lesiones-2021/18.json.gz",
+          "total": 8067,
+          "unmatched_geometry": 18,
+          "cells": 6213,
+          "municipalities": 21
+        },
+        "19": {
+          "file": "municipal/lesiones-2021/19.json.gz",
+          "total": 4422,
+          "unmatched_geometry": 338,
+          "cells": 3136,
+          "municipalities": 49
+        },
+        "20": {
+          "file": "municipal/lesiones-2021/20.json.gz",
+          "total": 6547,
+          "unmatched_geometry": 23,
+          "cells": 6217,
+          "municipalities": 366
+        },
+        "21": {
+          "file": "municipal/lesiones-2021/21.json.gz",
+          "total": 27470,
+          "unmatched_geometry": 150,
+          "cells": 20313,
+          "municipalities": 213
+        },
+        "22": {
+          "file": "municipal/lesiones-2021/22.json.gz",
+          "total": 8462,
+          "unmatched_geometry": 60,
+          "cells": 6682,
+          "municipalities": 19
+        },
+        "23": {
+          "file": "municipal/lesiones-2021/23.json.gz",
+          "total": 14449,
+          "unmatched_geometry": 13,
+          "cells": 9861,
+          "municipalities": 12
+        },
+        "24": {
+          "file": "municipal/lesiones-2021/24.json.gz",
+          "total": 8179,
+          "unmatched_geometry": 35,
+          "cells": 6069,
+          "municipalities": 59
+        },
+        "25": {
+          "file": "municipal/lesiones-2021/25.json.gz",
+          "total": 17454,
+          "unmatched_geometry": 41,
+          "cells": 13704,
+          "municipalities": 19
+        },
+        "26": {
+          "file": "municipal/lesiones-2021/26.json.gz",
+          "total": 18385,
+          "unmatched_geometry": 1819,
+          "cells": 14173,
+          "municipalities": 65
+        },
+        "27": {
+          "file": "municipal/lesiones-2021/27.json.gz",
+          "total": 16633,
+          "unmatched_geometry": 46,
+          "cells": 13454,
+          "municipalities": 18
+        },
+        "28": {
+          "file": "municipal/lesiones-2021/28.json.gz",
+          "total": 8408,
+          "unmatched_geometry": 17,
+          "cells": 6168,
+          "municipalities": 43
+        },
+        "29": {
+          "file": "municipal/lesiones-2021/29.json.gz",
+          "total": 3086,
+          "unmatched_geometry": 31,
+          "cells": 2808,
+          "municipalities": 61
+        },
+        "30": {
+          "file": "municipal/lesiones-2021/30.json.gz",
+          "total": 18379,
+          "unmatched_geometry": 87,
+          "cells": 16474,
+          "municipalities": 210
+        },
+        "31": {
+          "file": "municipal/lesiones-2021/31.json.gz",
+          "total": 4935,
+          "unmatched_geometry": 42,
+          "cells": 4330,
+          "municipalities": 87
+        },
+        "32": {
+          "file": "municipal/lesiones-2021/32.json.gz",
+          "total": 3646,
+          "unmatched_geometry": 6,
+          "cells": 3006,
+          "municipalities": 55
+        },
+        "99": {
+          "file": "municipal/lesiones-2021/99.json.gz",
+          "total": 10683,
+          "unmatched_geometry": 10683,
+          "cells": 5610,
+          "municipalities": 1
+        }
+      },
+      "total": 622798,
+      "sha256": "c70e51ac2a60ff3173f9277d74a7613c091a6d4e7bde2a4b24bb861631fdcac8"
+    }
+  },
+  "sectorial_municipal": "not_available_no_direct_municipal_field",
+  "publication": "local_research_only"
+}
