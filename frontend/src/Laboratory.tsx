@@ -1,3 +1,4 @@
+import {matchesDisease} from './diseaseSearch';
 import {ObservatoryAssets,type AssetReader} from './observatoryAssets';
 import ClusterScatter, {type Mds} from './ClusterScatter';
 import ClusterTree, {type WardTree} from './ClusterTree';
@@ -37,7 +38,7 @@ export default function Laboratory({sources,causes,states,initial,onSelection}:{
  const setEntity=(code:string)=>setSelection({id:data?.id||"",code});
  const group=data?.clusters.find(x=>x.k===k);
  const moran=data?.moran[cause];const anomaly=data?.anomalies[cause];
- const matching=Object.keys(causes).filter(c=>(c+' '+causes[c]).toLocaleLowerCase('es-MX').includes(query.toLocaleLowerCase('es-MX')));
+ const matching=Object.keys(causes).filter(c=>matchesDisease(c,causes[c],query));
  return <div className="lab">
  <section className="panel filters"><h2>Configura el análisis</h2><p className="lab-note">Solo años sin corte parcial. Todas las edades y sexos; el laboratorio no aplica filtros municipales ni demográficos de otras vistas.</p><div className="lab-controls">
  <label>Fuente<select aria-label="Fuente del laboratorio" value={source} onChange={e=>onSelection({source:e.target.value,year:0})}>{Object.entries(sources).map(([id,name])=><option key={id} value={id}>{name}</option>)}</select></label>
